@@ -1,0 +1,22 @@
+{
+  "name": "kcc-docs",
+  "version": "1.0.0",
+  "description": "docs for kcc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kucoin-community-chain/kcc-docs.git"
+  },
+  "keywords": [
+    "kcc",
+    "docs"
+  ],
+  "author": "leandre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kucoin-community-chain/kcc-docs/issues"
+  },
+  "homepage": "https://github.com/kucoin-community-chain/kcc-docs#readme",
+  "dependencies": {
+    "docsify-cli": "^4.4.3"
+  }
+}
