@@ -20,7 +20,11 @@ KCC具有如下特性：
 
 ## 使命和愿景
 
+使命：库币的使命是推动金融民主化。
 
+愿景：库币相信，区块链将大大加速价值的全球自由流动，捍卫每个人的福祉。
+
+这一愿景引领库币打造一个全民的交易所，让所有人拥抱数字资产。
 
 # 网络参数
 社区用户可以使用任何以太坊的钱包，并配置KCC链的网络参数，如`metamask`,`myetherwallet`,`imtoken`等。
@@ -121,3 +125,13 @@ make geth
 --syncmode full \ #同步模式
 --gcmode archive #gc模式
 ```
+
+## SDKs
+
+可以使用以下的SDK和KCC的RPC API进行交互。
+
+- [Js: web3.js](https://github.com/kucoin-community-chain/web3.js) Ethereum JavaScript API
+- [Java: web3j](https://github.com/web3j/web3j) Web3 Java Ethereum Ðapp API
+- [PHP: web3.php](https://github.com/sc0Vu/web3.php) A php interface for interacting with the Ethereum blockchain and ecosystem.
+- [Python: Web3.py](https://github.com/ethereum/web3.py) A Python library for interacting with Ethereum, inspired by web3.js.
+- [Golang: go-ethereum](https://github.com/ethereum/go-ethereum)
