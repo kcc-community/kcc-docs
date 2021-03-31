@@ -46,40 +46,6 @@ RPC地址:https://rpc.kucoin.org
 RPC地址:https://rpc-testnet.kucoin.org
 浏览器地址:https://scan-testnet.kucoin.org
 ```
-
-# 共识
-KCC采用PoSA共识机制，具有成本低、性能高、出块稳的特点，支持最多21个验证人节点；
-
-PoSA结合了PoS和PoA，想要成为验证人，需要先创建节点并提交提案，等待其他活跃的验证人进行投票，半数以上通过之后，则有资格成为验证人。任意地址均可对有资格成为验证人的地址进行质押，当验证人的质押量排名进入前21位之后，则会在下一个epoch成为活跃验证人。
-
-所有的活跃验证人按照预定规则排序，轮流进行出块。如果有验证人在自己的出块轮次没能及时出块，则在过去n/2(n为活跃验证人的数量)个块内，没有参与过出块操作的活跃验证人，随机进行出块。最少n/2+1个活跃验证人正常工作，即可保证区块链的正常运行。
-
-正常产块时，区块的难度值为2，未按照预定顺序进行产块时，区块的难度值为1。当区块链发生分叉时，区块链按照累计最大难度选择对应分叉。
-
-## 内置合约
-KCC在genesis文件中内置了PoSA共识相关的合约，
-合约源代码fork自heco，可在[https://github.com/kucoin-community-chain/kcc-genesis-contracts](https://github.com/kucoin-community-chain/kcc-genesis-contracts)查看。
-
-目前验证人的管理，均由系统合约完成，目前的系统合约有：
-- proposal 负责管理验证人的准入资格，管理验证人提案和投票；
-- validators 负责对验证人进行排名管理、质押和解质押操作、分发区块奖励等；
-- punish 负责对不正常工作的活跃验证人进行惩罚操作；
-
-区块链调用系统合约：
-- 每个块结束的时候，会调用validators合约，将区块中所有交易的手续费分发给active validator;
-- 发现validator没有正常工作的时候，会调用punish合约，对validator进行惩罚；
-- 每个epoch结束的时候，会调用validators合约，根据排名，更新active validator；
-
-
-## 质押
-用户可以调用validator合约的`stake`方法，对任意节点进行质押，每个validator的最小质押量是32KCS。
-
-## 解质押
-如果用户想取回质押的KCS，需要先调用validators合约的`unstake`方法进行解质押，然后在86400个块之后(3天)，再调用validators合约的`withdrawStaking`方法才能把质押的KCS取回到可用余额。
-
-## 惩罚
-如果验证人没有按照预定规则进行出块，就会在这个块结束时，自动调用punish合约，对验证人进行计数。当计数达到24次时，罚没验证人的所有收入。当计数达到48次时，将验证人移除出活跃验证人列表，同时取消验证人资格。
-
 # 开发者文档
 
 ## 编译
@@ -135,3 +101,35 @@ make geth
 - [PHP: web3.php](https://github.com/sc0Vu/web3.php) A php interface for interacting with the Ethereum blockchain and ecosystem.
 - [Python: Web3.py](https://github.com/ethereum/web3.py) A Python library for interacting with Ethereum, inspired by web3.js.
 - [Golang: go-ethereum](https://github.com/ethereum/go-ethereum)
+
+## 共识
+KCC采用PoSA共识机制，具有成本低、性能高、出块稳的特点，支持最多21个验证人节点；
+
+PoSA结合了PoS和PoA，想要成为验证人，需要先创建节点并提交提案，等待其他活跃的验证人进行投票，半数以上通过之后，则有资格成为验证人。任意地址均可对有资格成为验证人的地址进行质押，当验证人的质押量排名进入前21位之后，则会在下一个epoch成为活跃验证人。
+
+所有的活跃验证人按照预定规则排序，轮流进行出块。如果有验证人在自己的出块轮次没能及时出块，则在过去n/2(n为活跃验证人的数量)个块内，没有参与过出块操作的活跃验证人，随机进行出块。最少n/2+1个活跃验证人正常工作，即可保证区块链的正常运行。
+
+正常产块时，区块的难度值为2，未按照预定顺序进行产块时，区块的难度值为1。当区块链发生分叉时，区块链按照累计最大难度选择对应分叉。
+
+### 内置合约
+KCC在genesis文件中内置了PoSA共识相关的合约，
+合约源代码fork自heco，可在[https://github.com/kucoin-community-chain/kcc-genesis-contracts](https://github.com/kucoin-community-chain/kcc-genesis-contracts)查看。
+
+目前验证人的管理，均由系统合约完成，目前的系统合约有：
+- proposal 负责管理验证人的准入资格，管理验证人提案和投票；
+- validators 负责对验证人进行排名管理、质押和解质押操作、分发区块奖励等；
+- punish 负责对不正常工作的活跃验证人进行惩罚操作；
+
+区块链调用系统合约：
+- 每个块结束的时候，会调用validators合约，将区块中所有交易的手续费分发给active validator;
+- 发现validator没有正常工作的时候，会调用punish合约，对validator进行惩罚；
+- 每个epoch结束的时候，会调用validators合约，根据排名，更新active validator；
+
+### 质押
+用户可以调用validator合约的`stake`方法，对任意节点进行质押，每个validator的最小质押量是32KCS。
+
+### 解质押
+如果用户想取回质押的KCS，需要先调用validators合约的`unstake`方法进行解质押，然后在86400个块之后(3天)，再调用validators合约的`withdrawStaking`方法才能把质押的KCS取回到可用余额。
+
+### 惩罚
+如果验证人没有按照预定规则进行出块，就会在这个块结束时，自动调用punish合约，对验证人进行计数。当计数达到24次时，罚没验证人的所有收入。当计数达到48次时，将验证人移除出活跃验证人列表，同时取消验证人资格。
