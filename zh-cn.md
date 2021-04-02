@@ -125,7 +125,8 @@ KCC在genesis文件中内置了PoSA共识相关的合约，
 
 # 社区治理
 
-## KIPs(KCC Improvement Proposals)
+## KIPs
+KCC Improvement Proposals
 
 KIP是库币社区链改进提议的缩写，任何社区用户都可以在这里发起有关于库币社区链及相关应用的提议，
 参与讨论并执行。
