@@ -51,7 +51,7 @@ Faucet URL: https://faucet-testnet.kucoin.one
 
 ### Steps
 ```
-git clone -b kcc --single-branch git@github.com:kucoin-community-chain/kcc.git
+git clone -b kcc --single-branch https://github.com/kucoin-community-chain/kcc.git
 cd kcc
 make geth
 ```

@@ -47,7 +47,7 @@ RPC地址:https://rpc-testnet.kucoin.one
 
 ### 编译步骤
 ```
-git clone -b kcc --single-branch git@github.com:kucoin-community-chain/kcc.git
+git clone -b kcc --single-branch https://github.com/kucoin-community-chain/kcc.git
 cd kcc
 make geth
 ```
