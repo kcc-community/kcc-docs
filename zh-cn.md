@@ -32,8 +32,8 @@ RPC地址:https://rpc.kucoin.org
 网络名称:KCC-testnet
 链ID:322
 符号:KCS
-RPC地址:https://rpc-testnet.kucoin.org
-浏览器地址:https://scan-testnet.kucoin.org
+RPC地址:https://rpc-testnet.kucoin.one
+浏览器地址:https://scan-testnet.kucoin.one
 ```
 # 开发者文档
 
@@ -92,9 +92,9 @@ make geth
 - [Golang: go-ethereum](https://github.com/ethereum/go-ethereum)
 
 ## 共识
-KCC采用PoSA共识机制，具有成本低、性能高、出块稳的特点，支持最多21个验证人节点；
+KCC采用PoSA共识机制，具有成本低、性能高、出块稳的特点，支持最多29个验证人节点；
 
-PoSA结合了PoS和PoA，想要成为验证人，需要先创建节点并提交提案，等待其他活跃的验证人进行投票，半数以上通过之后，则有资格成为验证人。任意地址均可对有资格成为验证人的地址进行质押，当验证人的质押量排名进入前21位之后，则会在下一个epoch成为活跃验证人。
+PoSA结合了PoS和PoA，想要成为验证人，需要先创建节点并提交提案，等待其他活跃的验证人进行投票，半数以上通过之后，则有资格成为验证人。任意地址均可对有资格成为验证人的地址进行质押，当验证人的质押量排名进入前29位之后，则会在下一个epoch成为活跃验证人。
 
 所有的活跃验证人按照预定规则排序，轮流进行出块。如果有验证人在自己的出块轮次没能及时出块，则在过去n/2(n为活跃验证人的数量)个块内，没有参与过出块操作的活跃验证人，随机进行出块。最少n/2+1个活跃验证人正常工作，即可保证区块链的正常运行。
 
