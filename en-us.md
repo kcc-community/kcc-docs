@@ -37,7 +37,10 @@ Chain ID: 322
 Symbol: KCS
 RPC URL: https://rpc-testnet.kucoin.one
 Explorer URL: https://scan-testnet.kucoin.one
+
+Faucet URL: https://faucet-testnet.kucoin.one
 ```
+
 # Developer documentation
 
 ## Compilation

@@ -34,6 +34,8 @@ RPC地址:https://rpc.kucoin.org
 符号:KCS
 RPC地址:https://rpc-testnet.kucoin.one
 浏览器地址:https://scan-testnet.kucoin.one
+
+水龙头: https://faucet-testnet.kucoin.one
 ```
 # 开发者文档
 
