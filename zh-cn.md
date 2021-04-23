@@ -18,7 +18,7 @@ KCC具有如下特性：
 # 网络参数
 社区用户可以使用任何以太坊的钱包，并配置KCC链的网络参数，如`metamask`,`myetherwallet`,`imtoken`等。
 
-## 主网
+## 主网(未启用)
 ```
 网络名称:KCC
 链ID:321
@@ -44,6 +44,8 @@ RPC地址:https://rpc-testnet.kucoin.one
 - Linux or Mac
 - golang >= 1.13
 - git
+
+golang安装和配置请参考 [https://golang.org/doc/install](https://golang.org/doc/install)
 
 ### 编译步骤
 ```
@@ -82,6 +84,13 @@ make geth
 --syncmode full \ #同步模式
 --gcmode archive #gc模式
 ```
+
+可以使用`nohup`,`supervisor`,`systemd`等，使`geth`在后台常驻运行。
+
+参考文档：
+
+- [supervisor](http://supervisord.org/)
+- [systemd](https://wiki.debian.org/systemd)
 
 ## SDKs
 

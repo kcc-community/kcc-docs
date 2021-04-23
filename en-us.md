@@ -21,7 +21,7 @@ Vision：Blockchain will greatly accelerate the global free flow of value, allow
 # Network Params
 Community users can use any Ethereum compatible wallet to configure with KCC network params, like `metamask`,`myetherwallet`,`imtoken` etc.
 
-## Mainnet
+## Mainnet(NOT STARTED)
 ```
 Chain Name: KCC
 Chain ID: 321
@@ -48,6 +48,8 @@ Faucet URL: https://faucet-testnet.kucoin.one
 - Linux or Mac
 - golang >= 1.13
 - git
+
+[how to download and install golang](https://golang.org/doc/install)
 
 ### Steps
 ```
@@ -87,6 +89,11 @@ useful options:
 --syncmode full \ #syncmode
 --gcmode archive #gcmode
 ```
+
+You can use `nohup`,`supervisor`,`systemd` to run and manage `geth` in background.
+
+- [supervisor](http://supervisord.org/)
+- [systemd](https://wiki.debian.org/systemd)
 
 ## SDKs
 You can use the following SDKs to interacting with KCC node rpc.
