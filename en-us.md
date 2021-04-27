@@ -149,6 +149,17 @@ Whenever a validator is found not to mine block as predefined, the Punish contra
 
 # Governance
 
+## Advice & Issue & Discussion
+
+Any common advice & issue & discussion is welcome.
+
+[Leave an advice or issue](https://github.com/kucoin-community-chain/any-advice-issue/issues)
+
+[Start a discussion](https://github.com/kucoin-community-chain/any-advice-issue/discussions)
+
+If you have an issue on a special project, please move to `issue` page in the special project.
+
+
 ## KIPs
 KCC Improvement Proposals
 
