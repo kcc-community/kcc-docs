@@ -18,14 +18,7 @@ KCC具有如下特性：
 # 网络参数
 社区用户可以使用任何以太坊的钱包，并配置KCC链的网络参数，如`metamask`,`myetherwallet`,`imtoken`等。
 
-## 主网(未启用)
-```
-网络名称:KCC
-链ID:321
-符号:KCS
-RPC地址:https://rpc.kucoin.org
-浏览器地址:https://scan.kucoin.org
-```
+## 主网(未启动)
 
 ## 测试网
 ```
@@ -151,7 +144,6 @@ KCC在genesis文件中内置了PoSA共识相关的合约，
 [讨论](https://github.com/kucoin-community-chain/any-advice-issue/discussions)
 
 关于某一个具体项目的问题，请移步到具体的项目中开启`issue`。
-
 
 
 ## KIPs
