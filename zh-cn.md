@@ -142,6 +142,18 @@ KCC在genesis文件中内置了PoSA共识相关的合约，
 
 # 社区治理
 
+## 建议&问题&讨论
+
+我们欢迎社区的任何建议、问题和讨论，并建立了通用的Github渠道：
+
+[建议和问题](https://github.com/kucoin-community-chain/any-advice-issue/issues)
+
+[讨论](https://github.com/kucoin-community-chain/any-advice-issue/discussions)
+
+关于某一个具体项目的问题，请移步到具体的项目中开启`issue`。
+
+
+
 ## KIPs
 KCC Improvement Proposals
 
