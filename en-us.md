@@ -61,6 +61,12 @@ make geth
 The command line flags are similar to the go-ethereum, you can use `./build/bin/geth --help` for all command line options,
 like `geth --testnet` to join the Testnet.
 
+## Docker
+
+You can use [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.docker.com/r/kucoincommunitychain/kcc) to fast deploy and test.
+
+[How to use Docker?](https://docs.docker.com/get-started/)
+
 ## Deploy
 
 ### Requirements

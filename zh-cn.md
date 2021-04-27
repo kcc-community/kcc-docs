@@ -56,6 +56,12 @@ make geth
 ### 启动
 启动参数配置和以太坊类似，可以通过`./build/bin/geth --help`查看所有的参数配置，可以通过`geth --testnet`加入测试网。
 
+## Docker
+
+也可以使用 [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.docker.com/r/kucoincommunitychain/kcc) 进行快速部署和测试。
+
+[关于如何使用Docker？](https://docs.docker.com/get-started/)
+
 ## 部署
 
 ### 推荐配置
