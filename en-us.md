@@ -12,11 +12,9 @@ KuCoin Community Chain (KCC) will have the following characteristics:
 - A block every 3 seconds results in faster transaction confirmation and higher chain performance
 - Proof of Staked Authority (PoSA) consensus algorithm, high efficiency, security and stability
 
-## Mission and Vision
+## Mission
 
-Mission: To promote financial democratization
-
-Vision：Blockchain will greatly accelerate the global free flow of value, allowing everyone to embrace crypto assets
+Mission: To accelerate the flow of value around the world without boundaries.
 
 # Network Params
 Community users can use any Ethereum compatible wallet to configure with KCC network params, like `metamask`,`myetherwallet`,`imtoken` etc.
