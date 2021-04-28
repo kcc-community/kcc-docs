@@ -29,7 +29,7 @@ Symbol: KCS
 RPC URL: https://rpc-testnet.kucoin.one
 Explorer URL: https://scan-testnet.kucoin.one
 
-Faucet URL: https://faucet-testnet.kucoin.one
+Faucet URL: https://faucet-testnet.kucoin.one (for test only, no value)
 ```
 
 # Developer documentation

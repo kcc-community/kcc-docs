@@ -26,7 +26,7 @@ KCC具有如下特性：
 RPC地址:https://rpc-testnet.kucoin.one
 浏览器地址:https://scan-testnet.kucoin.one
 
-水龙头: https://faucet-testnet.kucoin.one
+水龙头: https://faucet-testnet.kucoin.one (仅测试用，无价值)
 ```
 # 开发者文档
 
