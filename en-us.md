@@ -3,7 +3,7 @@
 ## Introduction
 KuCoin Community Chain (KCC) is a high-performance and decentralized public chain built by KuCoin for all community users.  
 
-Developed based on the go-ethereum, the purpose is to provide the community users with a higher-speed,
+Developed based on the go-ethereum with purpose to provide the community users with a higher-speed,
 convenient and low-cost blockchain user experience.
 
 KuCoin Community Chain (KCC) will have the following characteristics:
