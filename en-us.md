@@ -3,7 +3,7 @@
 ## Introduction
 KuCoin Community Chain (KCC) is a high-performance and decentralized public chain built by KuCoin for all community users.  
 
-Developed based on the go-ethereum with purpose to provide the community users with a higher-speed,
+Developed based on go-ethereum with the purpose of providing community users with a higher-speed,
 convenient and low-cost blockchain user experience.
 
 KuCoin Community Chain (KCC) will have the following characteristics:
@@ -49,7 +49,7 @@ cd kcc
 make geth
 ```
 ### Running
-The command line flags are similar to the go-ethereum, you can use `./build/bin/geth --help` for all command line options,
+The command line flags are similar to go-ethereum, you can use `./build/bin/geth --help` for all command line options,
 like `geth --testnet` to join the Testnet.
 
 ## Docker
@@ -87,7 +87,7 @@ useful options:
 --gcmode archive #gcmode
 ```
 
-You can use `nohup`,`supervisor`,`systemd` to run and manage `geth` in background.
+You can use `nohup`,`supervisor`,`systemd` to run and manage `geth` in the background.
 
 - [supervisor](http://supervisord.org/)
 - [systemd](https://wiki.debian.org/systemd)
@@ -102,8 +102,8 @@ You can use the following SDKs to interact with KCC node rpc.
 - [Golang: go-ethereum](https://github.com/ethereum/go-ethereum)
 
 ## Consensus
-KCC introduces a PoSA consensus mechanism, which has the features of low transaction cost, low transaction delay,
-and high transaction concurrency, and supports up to 29 validators.
+KCC introduces a PoSA consensus mechanism, which features low transaction costs, low transaction delay,
+high transaction concurrency, and supports up to 29 validators.
 
 PoSA is a combination of PoA and PoS. To become a validator, you need to submit a proposal first and wait for other active validators to vote on it. After more than half of them voted, you will be eligible to become a validator. Any address can stake to an address that qualifies to become a validator, and after the validator's staking volume ranks in the top 29, it will become an active validator in the next epoch.
 
@@ -114,7 +114,7 @@ The difficulty value of a block is 2 when the block is generated normally and 1 
 ### System Contracts
 KCC has made 3 built-in contracts for PoSA in the genesis file.
 
-The source code of those contracts are forked from Heco, you can locate here: [https://github.com/kucoin-community-chain/kcc-genesis-contracts](https://github.com/kucoin-community-chain/kcc-genesis-contracts)。
+The source code of those contracts are forked from Heco, you can locate them here: [https://github.com/kucoin-community-chain/kcc-genesis-contracts](https://github.com/kucoin-community-chain/kcc-genesis-contracts)。
 
 The management of the current validators are all done by the system contracts.
 
@@ -129,7 +129,7 @@ Blockchain call system contracts：
 - At the end of each epoch, the Validators contract is called to update active validators, based on the ranking.
 
 ### stake
-You can call the `stake` method in the `validator` contract to stake for any validator, and the minimum staking amount for each validator is 32KCS.
+You can call the `stake` method in the `validator` contract to stake for any validator, the minimum staking amount for each validator is 32KCS.
 
 ### unstake
 If you want to `unstake` your KCS, you need to call the `unstake` method in the `validator` contract,
@@ -140,11 +140,11 @@ Whenever a validator is found not to mine a block as predefined, the Punish cont
 
 # Governance
 
-## Advice,Issue & Discussion
+## Advice, Issue & Discussion
 
-Any common advice,issue and discussion is welcome.
+Any advice, issues and discussion are welcome.
 
-[Leave an advice or issue](https://github.com/kucoin-community-chain/any-advice-issue/issues)
+[Leave advice or an issue](https://github.com/kucoin-community-chain/any-advice-issue/issues)
 
 [Start a discussion](https://github.com/kucoin-community-chain/any-advice-issue/discussions)
 
