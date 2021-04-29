@@ -151,3 +151,37 @@ KIP是库币社区链改进提议的缩写，任何社区用户都可以在这�
 参与讨论并执行。
 
 提议地址：[https://github.com/kucoin-community-chain/KIPs](https://github.com/kucoin-community-chain/KIPs)
+
+
+## FAQ
+
+### 如何配置 MetaMask 钱包
+
+使用 Chrome 浏览器打开 MetaMask [安装地址](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=zh-CN)
+
+根据页面提示创建以太坊钱包，**备份好私钥及助记词**；
+
+切换到 KCC 测试网
+
+(1) 打开 MetaMask，可以看到钱包被默认设置成【以太坊主网】。
+
+![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/7911b26f7e26298d0a18462416be580a/image.png)
+
+
+点击【以太坊主网】，在下拉菜单中点击【自定义 RPC】
+
+![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/307018953691eb8af9ee1d48bde4159b/image.png)
+
+
+(2) 切换到 KCC 测试网请在表单中填入下列数据：
+    网络名称：KCC-Test 
+    RPC URL：https://rpc-testnet.kucoin.one/
+    ChainID: 322
+    符号：KCS
+    浏览器链接:https://scan-testnet.kucoin.one/
+
+![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/8bdd3165097ccd4f497dcde78516c29d/image.png)
+
+成功
+
+![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/b665c7a55cc5345777900857f8fd683d/image.png)

@@ -159,3 +159,35 @@ KCC Improvement Proposals (KIPs) describe the standards for the KCC platform, in
 The purpose of this process is to ensure changes to KCC are transparent and well governed.
 
 URL：[https://github.com/kucoin-community-chain/KIPs](https://github.com/kucoin-community-chain/KIPs)
+
+
+## FAQ
+### 如何配置 MetaMask 钱包
+
+Use Chrome browser open MetaMask [extension site](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=zh-CN)
+
+Follow the intro, create your ETH wallet，**backup your private key or mnemonic**；
+
+Config KCC testnet
+
+(1) Open MetaMask，you can see the default config of【Ethereum mainnet】。
+
+![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/fe15faa8566a72481c7ee86a320c4531/image.png)
+
+
+click【Ethereum mainnet】，click【custom RPC】on the drop menu
+
+![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/f8a4b49c1a47513d01c38260cbeb6f5a/image.png)
+
+(2) Fill that config value in order change to the KCC testnet：
+    Network Name：KCC-Test 
+    New RPC URL：https://rpc-testnet.kucoin.one/
+    Chain ID: 322
+    Currency Symbol (optional)：KCS
+    Block Explorer URL (optional):https://scan-testnet.kucoin.one/
+
+![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/f86ac1082e601980de9659f9dcb4537a/image.png)
+
+Done
+
+![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/c0dc2af90e2f473cba0b9d16c7c8122d/image.png)
