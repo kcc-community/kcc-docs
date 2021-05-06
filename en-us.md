@@ -50,7 +50,7 @@ make geth
 ```
 ### Running
 The command line flags are similar to go-ethereum, you can use `./build/bin/geth --help` for all command line options,
-like `geth --testnet` to join the Testnet.
+like `./build/bin/geth --testnet` to join the Testnet. Caution: Use the specific "geth" version located at `./build/bin/geth`.
 
 ## Docker
 
@@ -70,8 +70,8 @@ public ip with TCP/UDP:30303 open
 
 ### Start command
 ```
-./geth #Mainnet
-./geth --testnet #Testnet
+./build/bin/geth #Mainnet
+./build/bin/geth --testnet #Testnet
 
 useful options:
 /data/kcc/geth \
@@ -79,8 +79,8 @@ useful options:
 --testnet \ #Testnet
 --http \ #http rpc
 --ws \ #ws rpc
---http.vhosts * \ #vhosts
---rpccorsdomain * \ #http corsdomain
+--http.vhosts '*' \ #vhosts
+--rpccorsdomain '*' \ #http corsdomain
 --http.addr 0.0.0.0 \ #http rpc bind address
 --ws.addr 0.0.0.0 \ #ws rpc bind address
 --syncmode full \ #syncmode
