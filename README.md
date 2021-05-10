@@ -23,14 +23,7 @@ docsify serve .
 ### User Groups
 - [[Telegram] KCC Official English Community](https://t.me/KCCOfficialEnglishCommunity)
 - [WeChat] 中文微信号：KuCoinCommunityChain
-
-### Developer Groups
-- General [![General](https://badges.gitter.im/kcc-community/community.svg)](https://gitter.im/kcc-community/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-- Docs [![Docs](https://badges.gitter.im/kcc-community/docs.svg)](https://gitter.im/kcc-community/docs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-- dApps [![dApps](https://badges.gitter.im/kcc-community/dApps.svg)](https://gitter.im/kcc-community/dApps?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-- Governance [![Governance](https://badges.gitter.im/kcc-community/governance.svg)](https://gitter.im/kcc-community/governance?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-- Core [![Core](https://badges.gitter.im/kcc-community/core.svg)](https://gitter.im/kcc-community/core?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-- KCC-Scan [![KCC-Scan](https://badges.gitter.im/KCC-Scan/community.svg)](https://gitter.im/KCC-Scan/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+- [[Discord] Official KCC-Community](https://discord.gg/H5ucJydSyd) (Prefer Developers)
 
 ### Official Emails
 - [kcc-tech@kucoin.ltd](kcc-tech@kucoin.ltd)
