@@ -4,6 +4,8 @@
 
 [简体中文](zh-cn.md)
 
+[Deutsch](de-de.md)
+
 [Read docs online](https://kucoin-community-chain.github.io/kcc-docs/#/)
 
 Read docs locally
