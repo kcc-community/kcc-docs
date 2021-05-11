@@ -27,10 +27,10 @@ Community Mitglieder können jede Ethereum compatible Wallet mit dem KCC Netzwer
 Chain Name: KCC-testnet
 Chain ID: 322
 Symbol: KCS
-RPC URL: https://rpc-testnet.kucoin.one
-Explorer URL: https://scan-testnet.kucoin.one
+RPC URL: https://rpc-testnet.kcc.network
+Explorer URL: https://scan-testnet.kcc.network
 
-Faucet URL: https://faucet-testnet.kucoin.one (Zu testzwecken ohne einen Wert)
+Faucet URL: https://faucet-testnet.kcc.network (Zu testzwecken ohne einen Wert)
 ```
 
 # Developer Dokumentation
@@ -187,11 +187,11 @@ Klicke auf【Ethereum mainnet】danach klicke auf【custom RPC】im Dropdown Men
 ![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/f8a4b49c1a47513d01c38260cbeb6f5a/image.png)
 
 (2) Fülle die Felder in folgender reihenfolge aus um das KCC Testnet hinzuzufügen:
-    Network Name：KCC-Test 
-    New RPC URL：https://rpc-testnet.kucoin.one/
+    Network Name：KCC-Test
+    New RPC URL：https://rpc-testnet.kcc.network/
     Chain ID: 322
     Currency Symbol (optional)：KCS
-    Block Explorer URL (optional):https://scan-testnet.kucoin.one/
+    Block Explorer URL (optional):https://scan-testnet.kcc.network/
 
 ![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/f86ac1082e601980de9659f9dcb4537a/image.png)
 
