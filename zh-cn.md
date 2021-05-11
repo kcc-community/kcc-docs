@@ -23,10 +23,10 @@ KCC具有如下特性：
 网络名称:KCC-testnet
 链ID:322
 符号:KCS
-RPC地址:https://rpc-testnet.kucoin.one
-浏览器地址:https://scan-testnet.kucoin.one
+RPC地址:https://rpc-testnet.kcc.network
+浏览器地址:https://scan-testnet.kcc.network
 
-水龙头: https://faucet-testnet.kucoin.one (仅测试用，无价值)
+水龙头: https://faucet-testnet.kcc.network (仅测试用，无价值)
 ```
 # 开发者文档
 
@@ -174,11 +174,11 @@ KIP是库币社区链改进提议的缩写，任何社区用户都可以在这�
 
 
 (2) 切换到 KCC 测试网请在表单中填入下列数据：
-    网络名称：KCC-Test 
-    RPC URL：https://rpc-testnet.kucoin.one/
+    网络名称：KCC-Test
+    RPC URL：https://rpc-testnet.kcc.network/
     ChainID: 322
     符号：KCS
-    浏览器链接:https://scan-testnet.kucoin.one/
+    浏览器链接:https://scan-testnet.kcc.network/
 
 ![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/8bdd3165097ccd4f497dcde78516c29d/image.png)
 

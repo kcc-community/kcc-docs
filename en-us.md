@@ -26,10 +26,10 @@ Community users can use any Ethereum compatible wallet to configure with KCC net
 Chain Name: KCC-testnet
 Chain ID: 322
 Symbol: KCS
-RPC URL: https://rpc-testnet.kucoin.one
-Explorer URL: https://scan-testnet.kucoin.one
+RPC URL: https://rpc-testnet.kcc.network
+Explorer URL: https://scan-testnet.kcc.network
 
-Faucet URL: https://faucet-testnet.kucoin.one (for test only, no value)
+Faucet URL: https://faucet-testnet.kcc.network (for test only, no value)
 ```
 
 # Developer documentation
@@ -180,11 +180,11 @@ click【Ethereum mainnet】，click【custom RPC】on the drop menu
 ![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/f8a4b49c1a47513d01c38260cbeb6f5a/image.png)
 
 (2) Fill that config value in order change to the KCC testnet：
-    Network Name：KCC-Test 
-    New RPC URL：https://rpc-testnet.kucoin.one/
+    Network Name：KCC-Test
+    New RPC URL：https://rpc-testnet.kcc.network/
     Chain ID: 322
     Currency Symbol (optional)：KCS
-    Block Explorer URL (optional):https://scan-testnet.kucoin.one/
+    Block Explorer URL (optional):https://scan-testnet.kcc.network/
 
 ![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/f86ac1082e601980de9659f9dcb4537a/image.png)
 
