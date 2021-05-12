@@ -28,6 +28,7 @@ Chain ID: 322
 Symbol: KCS
 RPC URL: https://rpc-testnet.kcc.network
 Explorer URL: https://scan-testnet.kcc.network
+WebSocket RPC URL: wss://rpc-ws-testnet.kcc.network
 
 Faucet URL: https://faucet-testnet.kcc.network (for test only, no value)
 ```
