@@ -26,5 +26,5 @@ docsify serve .
 - [[Discord] Official KCC-Community](https://discord.gg/H5ucJydSyd) (Prefer Developers)
 
 ### Official Emails
-- [kcc-tech@kucoin.ltd](kcc-tech@kucoin.ltd)
-- [kcc-business@kucoin.ltd](kcc-business@kucoin.ltd)
+- [kcc-tech@kcc.network](kcc-tech@kcc.network)
+- [kcc-business@kcc.network](kcc-business@kcc.network)

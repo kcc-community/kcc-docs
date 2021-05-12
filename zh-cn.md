@@ -23,8 +23,9 @@ KCC具有如下特性：
 网络名称:KCC-testnet
 链ID:322
 符号:KCS
-RPC地址:https://rpc-testnet.kcc.network
+RPC地址: https://rpc-testnet.kcc.network
 浏览器地址:https://scan-testnet.kcc.network
+WebSocket RPC地址: wss://rpc-ws-testnet.kcc.network
 
 水龙头: https://faucet-testnet.kcc.network (仅测试用，无价值)
 ```
