@@ -6,7 +6,7 @@
 
 [Deutsch](de-de.md)
 
-[Read docs online](https://kucoin-community-chain.github.io/kcc-docs/#/)
+[Read docs online](https://docs.kcc.network)
 
 Read docs locally
 ```
@@ -26,5 +26,5 @@ docsify serve .
 - [[Discord] Official KCC-Community](https://discord.gg/H5ucJydSyd) (Prefer Developers)
 
 ### Official Emails
-- [kcc-tech@kcc.network](kcc-tech@kcc.network)
-- [kcc-business@kcc.network](kcc-business@kcc.network)
+- [kcc-tech@kcc.network](mailto:kcc-tech@kcc.network)
+- [kcc-business@kcc.network](mailto:kcc-business@kcc.network)
