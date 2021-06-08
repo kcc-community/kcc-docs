@@ -17,7 +17,7 @@ KuCoin Community Chain (KCC) will have the following characteristics:
 Mission: To accelerate the flow of value around the world without boundaries.
 
 # Network Params
-Community users can use any Ethereum compatible wallet to configure with KCC network params, like `metamask`,`myetherwallet`,`imtoken` etc.
+Community users can use any Ethereum compatible wallet to configure with KCC network params, like [metamask](https://metamask.io/), [myetherwallet](https://www.myetherwallet.com/), [imtoken](https://token.im/), [TokenPocket](https://www.tokenpocket.pro/) etc.
 
 ## Mainnet
 ```

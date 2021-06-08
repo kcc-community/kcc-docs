@@ -14,7 +14,7 @@ KCC具有如下特性：
 促进价值在全球自由流动。
 
 # 网络参数
-社区用户可以使用任何以太坊的钱包，并配置KCC链的网络参数，如`metamask`,`myetherwallet`,`imtoken`等。
+社区用户可以使用任何以太坊的钱包，并配置KCC链的网络参数，如 [metamask](https://metamask.io/), [myetherwallet](https://www.myetherwallet.com/), [imtoken](https://token.im/), [TokenPocket](https://www.tokenpocket.pro/) 等。
 
 ## 主网
 ```
