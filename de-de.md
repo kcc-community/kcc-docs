@@ -2,7 +2,7 @@
 
 ## Einführung
 
-Die KuCoin Community Chain (KCC) ist eine dezentralisierte high-performance Blockchain, welche die Fans von KuCoin für alle Community Mitglieder entwickelt wird.
+Die KuCoin Community Chain (KCC) ist eine dezentralisierte high-performance Blockchain, Gebaut von Fans von KCS und KuCoin.
 
 Entwickelt auf der Basis von "go-ethereum" mit dem Hintergedanken der Community eine "High-Speed" Blockchain Erfahrung mit niedrigen Gebühren zu bieten.
 
