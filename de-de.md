@@ -18,7 +18,7 @@ Mission: Beschleunigung der Wertübertragung um die ganze Welt ohne Grenzen.
 
 # Netzwerk Parameter
 
-Community Mitglieder können jede Ethereum compatible Wallet mit dem KCC Netzwerk Parametern konfigurieren wie z.B. `metamask`,`myetherwallet`,`imtoken` etc.
+Community Mitglieder können jede Ethereum compatible Wallet mit dem KCC Netzwerk Parametern konfigurieren wie z.B. [metamask](https://metamask.io/), [myetherwallet](https://www.myetherwallet.com/), [imtoken](https://token.im/), [TokenPocket](https://www.tokenpocket.pro/) etc.
 
 ## Mainnet
 ```
