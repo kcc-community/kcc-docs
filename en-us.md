@@ -1,7 +1,7 @@
 # KuCoin Community Chain
 
 ## Introduction
-KuCoin Community Chain (KCC) is a high-performance and decentralized public chain built by KuCoin for all community users.  
+KuCoin Community Chain (KCC) is a high-performance and decentralized public chain built by KuCoin's fans for all KuCoin's community users.  
 
 Developed based on go-ethereum with the purpose of providing community users with a higher-speed,
 convenient and low-cost blockchain user experience.
@@ -19,11 +19,19 @@ Mission: To accelerate the flow of value around the world without boundaries.
 # Network Params
 Community users can use any Ethereum compatible wallet to configure with KCC network params, like `metamask`,`myetherwallet`,`imtoken` etc.
 
-## Mainnet (NOT STARTED)
+## Mainnet
+```
+Chain Name: KCC-MAINNET
+Chain ID: 321
+Symbol: KCS
+RPC URL: https://rpc-mainnet.kcc.network
+Explorer URL: https://explorer.kcc.io/en
+WebSocket RPC URL: wss://rpc-ws-mainnet.kcc.network
+```
 
 ## Testnet
 ```
-Chain Name: KCC-testnet
+Chain Name: KCC-TESTNET
 Chain ID: 322
 Symbol: KCS
 RPC URL: https://rpc-testnet.kcc.network

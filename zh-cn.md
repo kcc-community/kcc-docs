@@ -1,7 +1,7 @@
 # 库币社区链
 
 ## 社区链简介
-库币社区链KuCoin Community Chain(KCC)是库币**为广大社区用户**构建的，基于以太坊源代码开发的，高性能和去中心化的公链，**目的是为广大社区用户提供更加高速便捷并且低成本的区块链使用体验**。
+库币社区链KuCoin Community Chain(KCC)是由**广大社区开发者和社区用户**主导的，基于以太坊源代码开发的，高性能和去中心化的公链，**目的是为解决目前公链出现的诸如性能底下，成本过高等问题，从而提供给社区用户更加高速便捷并且低成本的区块链使用体验**。
 
 KCC具有如下特性：
 - 完全兼容以太坊和ERC20智能合约，迁移成本极低
@@ -16,15 +16,23 @@ KCC具有如下特性：
 # 网络参数
 社区用户可以使用任何以太坊的钱包，并配置KCC链的网络参数，如`metamask`,`myetherwallet`,`imtoken`等。
 
-## 主网(未启动)
+## 主网
+```
+网络名称: KCC-MAINNET
+链ID: 321
+符号: KCS
+RPC地址: https://rpc-mainnet.kcc.network
+浏览器地址: https://explorer.kcc.io/cn
+WebSocket RPC地址: wss://rpc-ws-mainnet.kcc.network
+```
 
 ## 测试网
 ```
-网络名称:KCC-testnet
-链ID:322
-符号:KCS
+网络名称: KCC-TESTNET
+链ID: 322
+符号: KCS
 RPC地址: https://rpc-testnet.kcc.network
-浏览器地址:https://scan-testnet.kcc.network
+浏览器地址: https://scan-testnet.kcc.network
 WebSocket RPC地址: wss://rpc-ws-testnet.kcc.network
 
 水龙头: https://faucet-testnet.kcc.network (仅测试用，无价值)
