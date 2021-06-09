@@ -181,23 +181,17 @@ URL：[https://github.com/kucoin-community-chain/KIPs](https://github.com/kucoin
 
 ## Disclaimers
 Dear user (hereinafter referred to as "you"):
+
 KuCoin Community Chain (hereinafter referred to as "KCC" or "we") is a decentralized public chain. Developers around the world can deploy applications on KCC, all users can read, send and trade on KCC. Due to the characteristics of decentralization, we hereby remind you the risks of the third-party DAPP are as follows:
 
-1. Before you operate on any platform, wallet or third-party DAPP, please do your own research first;
-
-2. Whether you participate in or use DAPP on KCC through any trading platform or wallet, it is your own behavior and we do not recommend it to you;
-
-3. We are not responsible for auditing any third-party DAPP, nor do we make any commitment and guarantee on the validity, accuracy, correctness, reliability, quality, stability, integrity and timeliness of the technology and information involved in its services;
-
-4. You should bear all the responsibilities arising from your use of any third-party DAPP services on your own;
-
-5. Whether the third-party DAPP services meet the laws, regulations or relevant policies of your jurisdiction, please make your own judgment and evaluation. We do not provide any evaluation, please make sure that you strictly abide by the laws of your jurisdiction;
-
-6. You and the third-party DAPP shall assume the responsibilities of any issues related to the usage of the third-party DAPP, including but not limited to legal issues, contractual liability issues, economic losses, etc., KCC will not be responsible for them;
-
-7. Unless you authorize us to do so, KCC will not share your personal information with any third-party DAPP. If you authorize us to share the information, all legal liabilities and disputes arising from the access by the third-party DAPP to your personal information shall be assumed by you and the third-party DAPP.
-
-8. KCC has no right to provide you with the personal information of any third-party DAPP developers unless they agree to do so. We will assist in this issue however we cannot guarantee that the information can be obtained.
+- Before you operate on any platform, wallet or third-party DAPP, please do your own research first;
+- Whether you participate in or use DAPP on KCC through any trading platform or wallet, it is your own behavior and we do not recommend it to you;
+-  We are not responsible for auditing any third-party DAPP, nor do we make any commitment and guarantee on the validity, accuracy, correctness, reliability, quality, stability, integrity and timeliness of the technology and information involved in its services;
+- You should bear all the responsibilities arising from your use of any third-party DAPP services on your own;
+- Whether the third-party DAPP services meet the laws, regulations or relevant policies of your jurisdiction, please make your own judgment and evaluation. We do not provide any evaluation, please make sure that you strictly abide by the laws of your jurisdiction;
+- You and the third-party DAPP shall assume the responsibilities of any issues related to the usage of the third-party DAPP, including but not limited to legal issues, contractual liability issues, economic losses, etc., KCC will not be responsible for them;
+- Unless you authorize us to do so, KCC will not share your personal information with any third-party DAPP. If you authorize us to share the information, all legal liabilities and disputes arising from the access by the third-party DAPP to your personal information shall be assumed by you and the third-party DAPP.
+- KCC has no right to provide you with the personal information of any third-party DAPP developers unless they agree to do so. We will assist in this issue however we cannot guarantee that the information can be obtained.
 
 Finally, we need to reiterate that we do not recommend or ask you to use any third-party DAPP service
 
