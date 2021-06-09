@@ -16,6 +16,16 @@ KuCoin Community Chain (KCC) will have the following characteristics:
 
 Mission: To accelerate the flow of value around the world without boundaries.
 
+## Risk statement
+
+- Before any operations in the fields related to cryptocurrency or DeFi, please first do your own research.
+- All users and developers can build the dApp in KCC testnet then the mainnet in the follow-up for free.
+- Please distinguish the test environment (the testnet) from the main network environment (the mainnet). The assets generated in the test environment do not have value, so please be careful against the cryptocurrency fraud.
+- KCC will announce authorization, promotion and other cooperation through its official social network, please kindly check the official information and avoid phishing sites.
+- Please make sure that you are visiting the official website to avoid the loss of private key.
+
+
+
 # Network Params
 Community users can use any Ethereum compatible wallet to configure with KCC network params, like [metamask](https://metamask.io/), [myetherwallet](https://www.myetherwallet.com/), [imtoken](https://token.im/), [TokenPocket](https://www.tokenpocket.pro/) etc.
 
@@ -169,9 +179,54 @@ The purpose of this process is to ensure changes to KCC are transparent and well
 
 URL：[https://github.com/kucoin-community-chain/KIPs](https://github.com/kucoin-community-chain/KIPs)
 
+## Disclaimers
+Dear user (hereinafter referred to as "you"):
+KuCoin Community Chain (hereinafter referred to as "KCC" or "we") is a decentralized public chain. Developers around the world can deploy applications on KCC, all users can read, send and trade on KCC. Due to the characteristics of decentralization, we hereby remind you the risks of the third-party DAPP are as follows:
+
+1. Before you operate on any platform, wallet or third-party DAPP, please do your own research first;
+
+2. Whether you participate in or use DAPP on KCC through any trading platform or wallet, it is your own behavior and we do not recommend it to you;
+
+3. We are not responsible for auditing any third-party DAPP, nor do we make any commitment and guarantee on the validity, accuracy, correctness, reliability, quality, stability, integrity and timeliness of the technology and information involved in its services;
+
+4. You should bear all the responsibilities arising from your use of any third-party DAPP services on your own;
+
+5. Whether the third-party DAPP services meet the laws, regulations or relevant policies of your jurisdiction, please make your own judgment and evaluation. We do not provide any evaluation, please make sure that you strictly abide by the laws of your jurisdiction;
+
+6. You and the third-party DAPP shall assume the responsibilities of any issues related to the usage of the third-party DAPP, including but not limited to legal issues, contractual liability issues, economic losses, etc., KCC will not be responsible for them;
+
+7. Unless you authorize us to do so, KCC will not share your personal information with any third-party DAPP. If you authorize us to share the information, all legal liabilities and disputes arising from the access by the third-party DAPP to your personal information shall be assumed by you and the third-party DAPP.
+
+8. KCC has no right to provide you with the personal information of any third-party DAPP developers unless they agree to do so. We will assist in this issue however we cannot guarantee that the information can be obtained.
+
+Finally, we need to reiterate that we do not recommend or ask you to use any third-party DAPP service
 
 ## FAQ
-### 如何配置 MetaMask 钱包
+1.What is the consensus mechanism of KCC?
+KCC adopts the PoSA consensus mechanism, featuring with low cost, high performance and stable block generation, supporting up to 29 validator nodes;
+
+2.How to become a KCC validator node?
+To become a validator, you need to create a node and submit a proposal, and wait for other active validators to vote. After receiving more than half of the votes, you are eligible to become a validator. Any address can stake the address that is eligible to become a validator. After the validator's staked amount ranks in the top 29, the validator will become an active one in the next epoch.
+
+3.Does KCC support EVM?
+KCC fully supports EVM and is completely friendly to Ethereum developers.
+
+4.What SDK does KCC use?
+KCC is highly compatible with Ethereum, so we adopt the sdk of Ethereum such as web3js, web3j, etc.
+
+5.I want to carry out some operations and tests on the KCC testnet. Where can I get test tokens?
+You can visit our testnet faucet: https://faucet-testnet.kcc.network.
+
+6.How to stake contract nodes?
+Users can call the stake method of the validator contract to stake any node. The minimum staked amount for each validator is 32 KCS.
+
+7.How to unlock the staked amount?
+If users want to retrieve the staked KCS, they need to call the unstake method of the validators contract to unlock the staked amount. After 86,400 blocks were generated (3 days), call the withdrawStaking method of the validators contract to get the staked KCS back.
+
+8.Get stuck when using MetaMask (including but not limited to transfer stuck or delay, problem of data display, etc.)
+Use the plug-in expand view to display at full screen, which can be more stable or choose "Accelerate" to increase gaslimt and gasPrice.
+
+### How to configure MetaMask Wallet
 
 Use Chrome browser open MetaMask [extension site](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=zh-CN)
 
