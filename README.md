@@ -1,12 +1,6 @@
 # Docs for KCC
 
-[English](en-us.md)
-
-[简体中文](zh-cn.md)
-
-[Deutsch](de-de.md)
-
-[Read docs online](https://docs.kcc.network)
+[Read docs online](https://docs.kcc.io)
 
 Read docs locally
 ```

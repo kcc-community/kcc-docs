@@ -177,8 +177,8 @@ Der Idee hinter diesem Prozess ist es alle änderungen an der KCC so transparent
 URL：[https://github.com/kucoin-community-chain/KIPs](https://github.com/kucoin-community-chain/KIPs)
 
 
-## FAQ
-### MetaMask
+# FAQ
+## MetaMask
 
 Nutze den Chrome Browser und öffne MetaMask [extension site](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=zh-CN)
 
