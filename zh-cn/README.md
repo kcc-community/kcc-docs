@@ -32,9 +32,8 @@ KCC具有如下特性：
 - 第三方DAPP服务等是否符合您所在管辖区的法律法规或相关政策要求，请您自行判断与评估，我们不提供任何评估意见，但请您务必严格遵守您所在管辖地的法律；
 - 您因使用第三方DAPP而涉及的包括但不限于合法问题、合同责任问题、经济损失问题等，均由您与第三方DAPP自行解决，我们不对此承担责任；
 - KCC不会与任何第三方DAPP共享您的个人信息，除非获得您的明确同意。在获得您明确同意后而因第三方DAPP 获取您个人信息产生的一切法律责任、纠纷，仍由您自行承担并与第三方DAPP自行解决。
-- KCC无权向您提供任何第三方DAPP开发者的个人信息，除非获得对方的同意或相关部门的要求，我们会尽力协助但无法保证能有效及时获取对方信息。
-
-最后，我们再次提醒您：我们不推荐、建议、引导您使用任何第三方DAPP服务。
+- KCC无权向您提供任何第三方DAPP开发者的个人信息，除非获得对方的同一或相关部门的要求，我们会尽力协助但无法保证能有效及时获取对方信息。
+  最后，我们再次提醒您：我们不推荐、建议、引导您使用任何第三方DAPP服务。
 
 # 网络参数
 社区用户可以使用任何以太坊的钱包，并配置KCC链的网络参数，如 [metamask](https://metamask.io/), [myetherwallet](https://www.myetherwallet.com/), [imtoken](https://token.im/), [TokenPocket](https://www.tokenpocket.pro/) 等。
@@ -187,9 +186,9 @@ KIP是库币社区链改进提议的缩写，任何社区用户都可以在这�
 # FAQ
 1.KCC的共识机制是什么？
 
->KCC采用PoSA共识机制，具有成本低、性能高、出块稳的特点，支持最多29个验证人节点。
+>KCC采用PoSA共识机制，具有成本低、性能高、出块稳的特点，支持最多29个验证人节点；
 
-2.如何成为KCC验证人节点？
+2.如何成为KCC验证人节点
 
 >想要成为验证人，需要先创建节点并提交提案，等待其他活跃的验证人进行投票，半数以上通过之后，则有资格成为验证人。任意地址均可对有资格成为验证人的地址进行质押，当验证人的质押量排名进入前29位之后，则会在下一个epoch成为活跃验证人。
 
@@ -228,23 +227,33 @@ KIP是库币社区链改进提议的缩写，任何社区用户都可以在这�
 
 (1) 打开 MetaMask，可以看到钱包被默认设置成【以太坊主网】。
 
-![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/7911b26f7e26298d0a18462416be580a/image.png)
+<img width="170" alt="C1" src="https://user-images.githubusercontent.com/13411690/121639732-8e4e6a00-cabf-11eb-8c81-a7ac380bd2b9.png">
+
 
 
 点击【以太坊主网】，在下拉菜单中点击【自定义 RPC】
 
-![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/307018953691eb8af9ee1d48bde4159b/image.png)
+
+<img width="170" alt="C2" src="https://user-images.githubusercontent.com/13411690/121639736-90b0c400-cabf-11eb-93ab-794d99bf28d9.png">
 
 
-(2) 切换到 KCC 测试网请在表单中填入下列数据：
-    网络名称：KCC-Test
-    RPC URL：https://rpc-testnet.kcc.network/
-    ChainID: 322
+
+(2) 切换到 KCC 主网请在表单中填入下列数据：
+    网络名称：KCC-MAINNET
+    RPC URL：https://rpc-mainnet.kcc.network
+    ChainID: 321
     符号：KCS
-    浏览器链接:https://scan-testnet.kcc.network/
+    浏览器链接:https://explorer.kcc.io/cn
 
-![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/8bdd3165097ccd4f497dcde78516c29d/image.png)
+<img width="170" alt="C3" src="https://user-images.githubusercontent.com/13411690/121639766-9e664980-cabf-11eb-9b5d-0060c9d05e9b.png">
+
 
 成功
 
-![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/b665c7a55cc5345777900857f8fd683d/image.png)
+<img width="170" alt="C4" src="https://user-images.githubusercontent.com/13411690/121639786-a6be8480-cabf-11eb-9ff0-76995dfdccfa.png">
+
+
+
+
+
+
