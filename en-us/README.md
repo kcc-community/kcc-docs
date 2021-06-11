@@ -236,22 +236,29 @@ Config KCC testnet
 
 (1) Open MetaMask，you can see the default config of【Ethereum mainnet】。
 
-![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/fe15faa8566a72481c7ee86a320c4531/image.png)
+<img width="170" alt="E1" src="https://user-images.githubusercontent.com/13411690/121641021-3f093900-cac1-11eb-9c06-fd653cd598a1.png">
 
 
 click【Ethereum mainnet】，click【custom RPC】on the drop menu
 
-![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/f8a4b49c1a47513d01c38260cbeb6f5a/image.png)
+<img width="170" alt="E2" src="https://user-images.githubusercontent.com/13411690/121641049-4597b080-cac1-11eb-8674-3755c30a3398.png">
+
 
 (2) Fill that config value in order change to the KCC testnet：
-    Network Name：KCC-Test
-    New RPC URL：https://rpc-testnet.kcc.network/
-    Chain ID: 322
-    Currency Symbol (optional)：KCS
-    Block Explorer URL (optional):https://scan-testnet.kcc.network/
 
-![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/f86ac1082e601980de9659f9dcb4537a/image.png)
+    Network Name：KCC-MAINNET
+    
+    New RPC URL：https://rpc-mainnet.kcc.network
+    
+    Chain ID: 321
+    
+    Currency Symbol (optional)：KCS
+    
+    Block Explorer URL (optional):https://explorer.kcc.io
+
+<img width="170" alt="E3" src="https://user-images.githubusercontent.com/13411690/121641071-4d575500-cac1-11eb-9c4f-1e88cd955d2a.png">
+
 
 Done
 
-![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/c0dc2af90e2f473cba0b9d16c7c8122d/image.png)
+<img width="170" alt="E4" src="https://user-images.githubusercontent.com/13411690/121641085-51837280-cac1-11eb-80cd-1a208c0bcd54.png">
