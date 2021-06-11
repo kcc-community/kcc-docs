@@ -7,10 +7,10 @@ Developed based on go-ethereum with the purpose of providing community users wit
 convenient and low-cost blockchain user experience.
 
 KuCoin Community Chain (KCC) will have the following characteristics:
-- Fully compatible with Ethereum and ERC-20 smart contracts, with extremely low migration costs
-- KuCoin Token (KCS) will serve as the only core fuel and native token for KCC and can be used in scenarios such as gas fee payment
-- A block every 3 seconds results in faster transaction confirmation and higher chain performance
-- Proof of Staked Authority (PoSA) consensus algorithm, high efficiency, security and stability
+- Fully compatible with Ethereum and ERC-20 smart contracts, with extremely low migration costs;
+- KuCoin Token (KCS) will serve as the only core fuel and native token for KCC and can be used in scenarios such as gas fee payment;
+- A block every 3 seconds results in faster transaction confirmation and higher chain performance;
+- Proof of Staked Authority (PoSA) consensus algorithm, high efficiency, security and stability.
 
 ## Mission
 
@@ -38,7 +38,7 @@ KuCoin Community Chain (hereinafter referred to as "KCC" or "we") is a decentral
 - Unless you authorize us to do so, KCC will not share your personal information with any third-party DAPP. If you authorize us to share the information, all legal liabilities and disputes arising from the access by the third-party DAPP to your personal information shall be assumed by you and the third-party DAPP.
 - KCC has no right to provide you with the personal information of any third-party DAPP developers unless they agree to do so. We will assist in this issue however we cannot guarantee that the information can be obtained.
 
-Finally, we need to reiterate that we do not recommend or ask you to use any third-party DAPP service
+Finally, we need to reiterate that we do not recommend or ask you to use any third-party DAPP service.
 
 # Network Params
 Community users can use any Ethereum compatible wallet to configure with KCC network params, like [metamask](https://metamask.io/), [myetherwallet](https://www.myetherwallet.com/), [imtoken](https://token.im/), [TokenPocket](https://www.tokenpocket.pro/) etc.
