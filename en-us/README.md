@@ -254,9 +254,11 @@ click【Ethereum mainnet】，click【custom RPC】on the drop menu
     
     Currency Symbol (optional)：KCS
     
-    Block Explorer URL (optional):https://explorer.kcc.io
+    Block Explorer URL (optional):https://explorer.kcc.io/en
 
-<img width="170" alt="E3" src="https://user-images.githubusercontent.com/13411690/121641071-4d575500-cac1-11eb-9c4f-1e88cd955d2a.png">
+<img width="170" alt="E3" src="https://user-images.githubusercontent.com/13411690/121641889-598fe200-cac2-11eb-92c5-6617c103ebee.png">
+
+
 
 
 Done
