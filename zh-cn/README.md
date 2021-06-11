@@ -239,10 +239,15 @@ KIP是库币社区链改进提议的缩写，任何社区用户都可以在这�
 
 
 (2) 切换到 KCC 主网请在表单中填入下列数据：
+
     网络名称：KCC-MAINNET
+    
     RPC URL：https://rpc-mainnet.kcc.network
+    
     ChainID: 321
+    
     符号：KCS
+    
     浏览器链接:https://explorer.kcc.io/cn
 
 <img width="170" alt="C3" src="https://user-images.githubusercontent.com/13411690/121639766-9e664980-cabf-11eb-9b5d-0060c9d05e9b.png">
