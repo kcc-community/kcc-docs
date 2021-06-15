@@ -184,26 +184,29 @@ Nutze den Chrome Browser und öffne MetaMask [extension site](https://chrome.goo
 
 Folge den Anweisungem um deine ETH Wallet zu erzeugen und **Backuppe deinen Private Key und/oder deine Memonic**
 
-Konfiguriere MetaMask für das KCC Testnet
+Konfiguriere MetaMask für das KCC Mainnet
 
 (1) Öffne MetaMask. Im oberen Bereich siehst du das standard Netzwerk 【Ethereum mainnet】。
 
-![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/fe15faa8566a72481c7ee86a320c4531/image.png)
-
+<img width="170" alt="E1" src="https://user-images.githubusercontent.com/13411690/121641021-3f093900-cac1-11eb-9c06-fd653cd598a1.png">
 
 Klicke auf【Ethereum mainnet】danach klicke auf【custom RPC】im Dropdown Menü.
 
-![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/f8a4b49c1a47513d01c38260cbeb6f5a/image.png)
+<img width="170" alt="E2" src="https://user-images.githubusercontent.com/13411690/121641049-4597b080-cac1-11eb-8674-3755c30a3398.png">
 
-(2) Fülle die Felder in folgender reihenfolge aus um das KCC Testnet hinzuzufügen:
-    Network Name：KCC-Test
-    New RPC URL：https://rpc-testnet.kcc.network/
-    Chain ID: 322
+(2) Fülle die Felder in folgender reihenfolge aus um das KCC Mainnet hinzuzufügen:
+    Network Name：KCC-MAINNET
+
+    New RPC URL：https://rpc-mainnet.kcc.network
+    
+    Chain ID: 321
+    
     Currency Symbol (optional)：KCS
-    Block Explorer URL (optional):https://scan-testnet.kcc.network/
+    
+    Block Explorer URL (optional):https://explorer.kcc.io/en
 
-![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/f86ac1082e601980de9659f9dcb4537a/image.png)
+<img width="170" alt="E3" src="https://user-images.githubusercontent.com/13411690/121641889-598fe200-cac2-11eb-92c5-6617c103ebee.png">
 
 Fertig
 
-![](https://trello-attachments.s3.amazonaws.com/608a2ec80599322eb36f3444/371x614/c0dc2af90e2f473cba0b9d16c7c8122d/image.png)
+<img width="170" alt="E4" src="https://user-images.githubusercontent.com/13411690/121641085-51837280-cac1-11eb-80cd-1a208c0bcd54.png">
