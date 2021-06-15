@@ -82,14 +82,14 @@ cd kcc
 make geth
 ```
 ### Ejecutando
-The command line flags are similar to go-ethereum, you can use `./build/bin/geth --help` for all command line options,
-like `./build/bin/geth --testnet` to join the Testnet. Caution: Use the specific "geth" version located at `./build/bin/geth`.
+Los parametros de la línea de comando son similares a go-ethereum, puede usar `./build/bin/geth --help` para todas las opciones de la línea de comandos,
+como `./build/bin/geth --testnet` para unirse a Testnet. Precaución: utilice la versión "geth" específica que se encuentra en `./build/bin/geth`.
 
 ## Docker
 
-You can use [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.docker.com/r/kucoincommunitychain/kcc) to fast deploy and test.
+Puedes usar [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.docker.com/r/kucoincommunitychain/kcc) para implementar y probar rápidamente.
 
-[How to use Docker?](https://docs.docker.com/get-started/)
+[¿Cómo utilizar Docker?](https://docs.docker.com/get-started/)
 
 ## Despliegue
 
