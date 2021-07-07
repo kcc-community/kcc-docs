@@ -18,6 +18,7 @@ Mission: To accelerate the flow of value around the world without boundaries.
 
 ## Risk statement
 
+- KCC officially will not release any Swap project because all projects are developed by the community.So KCC is not responsible for any inconvenience caused by these projects. Also, KCC does not serve as customer service for relevant projects.
 - Before any operations in the fields related to cryptocurrency or DeFi, please first do your own research.
 - All users and developers can build the dApp in KCC testnet then the mainnet in the follow-up for free.
 - Please distinguish the test environment (the testnet) from the main network environment (the mainnet). The assets generated in the test environment do not have value, so please be careful against the cryptocurrency fraud.
