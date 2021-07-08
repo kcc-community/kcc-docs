@@ -78,7 +78,7 @@ Faucet URL: https://faucet-testnet.kcc.network (for test only, no value)
 
 ### Steps
 ```
-git clone -b kcc --single-branch https://github.com/kucoin-community-chain/kcc.git
+git clone -b kcc --single-branch https://github.com/kcc-community/kcc.git
 cd kcc
 make geth
 ```
@@ -129,7 +129,7 @@ You can use `nohup`,`supervisor`,`systemd` to run and manage `geth` in the backg
 ## SDKs
 You can use the following SDKs to interact with KCC node rpc.
 
-- [Js: web3.js](https://github.com/kucoin-community-chain/web3.js) Ethereum JavaScript API
+- [Js: web3.js](https://github.com/kcc-community/web3.js) Ethereum JavaScript API
 - [Java: web3j](https://github.com/web3j/web3j) Web3 Java Ethereum Ðapp API
 - [PHP: web3.php](https://github.com/sc0Vu/web3.php) A php interface for interacting with the Ethereum blockchain and ecosystem.
 - [Python: Web3.py](https://github.com/ethereum/web3.py) A Python library for interacting with Ethereum, inspired by web3.js.
@@ -148,7 +148,7 @@ The difficulty value of a block is 2 when the block is generated normally and 1 
 ### System Contracts
 KCC has made 3 built-in contracts for PoSA in the genesis file.
 
-The source code of those contracts are forked from Heco, you can locate them here: [https://github.com/kucoin-community-chain/kcc-genesis-contracts](https://github.com/kucoin-community-chain/kcc-genesis-contracts)。
+The source code of those contracts are forked from Heco, you can locate them here: [https://github.com/kcc-community/kcc-genesis-contracts](https://github.com/kcc-community/kcc-genesis-contracts)。
 
 The management of the current validators are all done by the system contracts.
 
@@ -178,9 +178,9 @@ Whenever a validator is found not to mine a block as predefined, the Punish cont
 
 Any advice, issues and discussion are welcome.
 
-[Leave advice or an issue](https://github.com/kucoin-community-chain/any-advice-issue/issues)
+[Leave advice or an issue](https://github.com/kcc-community/any-advice-issue/issues)
 
-[Start a discussion](https://github.com/kucoin-community-chain/any-advice-issue/discussions)
+[Start a discussion](https://github.com/kcc-community/any-advice-issue/discussions)
 
 If you have an issue on a special project, please move to the `issue` page in the special project.
 
@@ -192,7 +192,7 @@ KCC Improvement Proposals (KIPs) describe the standards for the KCC platform, in
 
 The purpose of this process is to ensure changes to KCC are transparent and well governed.
 
-URL：[https://github.com/kucoin-community-chain/KIPs](https://github.com/kucoin-community-chain/KIPs)
+URL：[https://github.com/kcc-community/KIPs](https://github.com/kcc-community/KIPs)
 
 # FAQ
 1.What is the consensus mechanism of KCC?
