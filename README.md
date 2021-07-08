@@ -16,7 +16,6 @@ docsify serve .
 
 ### User Groups
 - [[Telegram] KCC Official English Community](https://t.me/KCCOfficialEnglishCommunity)
-- [WeChat] 中文微信号：KuCoinCommunityChain
 - [[Discord] Official KCC-Community](https://discord.gg/H5ucJydSyd) (Prefer Developers)
 
 ### Official Emails
