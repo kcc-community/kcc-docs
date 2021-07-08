@@ -27,7 +27,7 @@ Misión: Acelerar el flujo de valor en todo el mundo sin fronteras.
 ## Descargos de responsabilidad
 Estimado usuario (en lo sucesivo, "usted"):
 
-KuCoin Community Chain (en lo sucesivo, "KCC" o "nosotros") es una cadena pública descentralizada. Los desarrolladores de todo el mundo pueden implementar aplicaciones en KCC, todos los usuarios pueden leer, enviar e intercambiar en KCC. Debido a las características de la descentralización, le recordamos que los riesgos de las DAPP de terceros son los siguientes:
+KCC (en lo sucesivo, "KCC" o "nosotros") es una cadena pública descentralizada. Los desarrolladores de todo el mundo pueden implementar aplicaciones en KCC, todos los usuarios pueden leer, enviar e intercambiar en KCC. Debido a las características de la descentralización, le recordamos que los riesgos de las DAPP de terceros son los siguientes:
 
 - Antes de operar en cualquier plataforma, billetera o DAPP de terceros, primero haga su propia investigación;
 - Ya sea que participe o use DAPP en KCC a través de cualquier plataforma de negociación o billetera, es su propio comportamiento y no se lo recomendamos;
@@ -77,7 +77,7 @@ Faucet URL: https://faucet-testnet.kcc.network (for test only, no value)
 
 ### Pasos
 ```
-git clone -b kcc --single-branch https://github.com/kucoin-community-chain/kcc.git
+git clone -b kcc --single-branch https://github.com/kcc-community/kcc.git
 cd kcc
 make geth
 ```
@@ -128,7 +128,7 @@ Puedes usar `nohup`,`supervisor`,`systemd` para ejecutar y administrar `geth` en
 ## SDKs
 Puede utilizar los siguientes SDK para interactuar con el nodo rpc de KCC.
 
-- [Js: web3.js](https://github.com/kucoin-community-chain/web3.js) Ethereum JavaScript API
+- [Js: web3.js](https://github.com/kcc-community/web3.js) Ethereum JavaScript API
 - [Java: web3j](https://github.com/web3j/web3j) Web3 Java Ethereum Ðapp API
 - [PHP: web3.php](https://github.com/sc0Vu/web3.php) A php interface for interacting with the Ethereum blockchain and ecosystem.
 - [Python: Web3.py](https://github.com/ethereum/web3.py) A Python library for interacting with Ethereum, inspired by web3.js.
@@ -146,7 +146,7 @@ El valor de dificultad de un bloque es 2 cuando el bloque se genera normalmente 
 ### Contratos de Sistema
 KCC ha realizado 3 contratos integrados para PoSA en el archivo de génesis.
 
-El código fuente de esos contratos se bifurcaron desde Heco, puede ubicarlos aquí: [https://github.com/kucoin-community-chain/kcc-genesis-contracts](https://github.com/kucoin-community-chain/kcc-genesis-contracts)。
+El código fuente de esos contratos se bifurcaron desde Heco, puede ubicarlos aquí: [https://github.com/kcc-community/kcc-genesis-contracts](https://github.com/kcc-community/kcc-genesis-contracts)。
 
 La gestión de los validadores actuales se realiza mediante los contratos del sistema.
 
@@ -176,9 +176,9 @@ Siempre que se encuentra que un validador no extrae un bloque como estaba predef
 
 Cualquier consejo, problema y discusión son bienvenidos.
 
-[Deja un consejo o un problema](https://github.com/kucoin-community-chain/any-advice-issue/issues)
+[Deja un consejo o un problema](https://github.com/kcc-community/any-advice-issue/issues)
 
-[Iniciar una discusión](https://github.com/kucoin-community-chain/any-advice-issue/discussions)
+[Iniciar una discusión](https://github.com/kcc-community/any-advice-issue/discussions)
 
 Si tiene un problema en un proyecto especial, vaya a la página "problema" del proyecto especial.
 
@@ -190,7 +190,7 @@ Las propuestas de mejora de KCC (KIP) describen los estándares para la platafor
 
 El propósito de este proceso es garantizar que los cambios en KCC sean transparentes y estén bien gobernados.
 
-URL：[https://github.com/kucoin-community-chain/KIPs](https://github.com/kucoin-community-chain/KIPs)
+URL：[https://github.com/kcc-community/KIPs](https://github.com/kcc-community/KIPs)
 
 # FAQ
 1. ¿Cuál es el mecanismo de consenso de KCC?

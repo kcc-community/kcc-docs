@@ -72,7 +72,7 @@ golang安装和配置请参考 [https://golang.org/doc/install](https://golang.o
 
 ### 编译步骤
 ```
-git clone -b kcc --single-branch https://github.com/kucoin-community-chain/kcc.git
+git clone -b kcc --single-branch https://github.com/kcc-community/kcc.git
 cd kcc
 make geth
 ```
@@ -125,7 +125,7 @@ make geth
 
 可以使用以下的SDK和KCC的RPC API进行交互。
 
-- [Js: web3.js](https://github.com/kucoin-community-chain/web3.js) Ethereum JavaScript API
+- [Js: web3.js](https://github.com/kcc-community/web3.js) Ethereum JavaScript API
 - [Java: web3j](https://github.com/web3j/web3j) Web3 Java Ethereum Ðapp API
 - [PHP: web3.php](https://github.com/sc0Vu/web3.php) A php interface for interacting with the Ethereum blockchain and ecosystem.
 - [Python: Web3.py](https://github.com/ethereum/web3.py) A Python library for interacting with Ethereum, inspired by web3.js.
@@ -142,7 +142,7 @@ PoSA结合了PoS和PoA，想要成为验证人，需要先创建节点并提交�
 
 ### 内置合约
 KCC在genesis文件中内置了PoSA共识相关的合约，
-合约源代码fork自heco，可在[https://github.com/kucoin-community-chain/kcc-genesis-contracts](https://github.com/kucoin-community-chain/kcc-genesis-contracts)查看。
+合约源代码fork自heco，可在[https://github.com/kcc-community/kcc-genesis-contracts](https://github.com/kcc-community/kcc-genesis-contracts)查看。
 
 目前验证人的管理，均由系统合约完成，目前的系统合约有：
 - proposal 负责管理验证人的准入资格，管理验证人提案和投票；
@@ -169,9 +169,9 @@ KCC在genesis文件中内置了PoSA共识相关的合约，
 
 我们欢迎社区的任何建议、问题和讨论，并建立了通用的Github渠道：
 
-[建议和问题](https://github.com/kucoin-community-chain/any-advice-issue/issues)
+[建议和问题](https://github.com/kcc-community/any-advice-issue/issues)
 
-[讨论](https://github.com/kucoin-community-chain/any-advice-issue/discussions)
+[讨论](https://github.com/kcc-community/any-advice-issue/discussions)
 
 关于某一个具体项目的问题，请移步到具体的项目中开启`issue`。
 
@@ -182,7 +182,7 @@ KCC Improvement Proposals
 KIP是KCC改进提议的缩写，任何社区用户都可以在这里发起有关KCC及相关应用的提议，
 参与讨论并执行。
 
-提议地址：[https://github.com/kucoin-community-chain/KIPs](https://github.com/kucoin-community-chain/KIPs)
+提议地址：[https://github.com/kcc-community/KIPs](https://github.com/kcc-community/KIPs)
 
 # FAQ
 1.KCC的共识机制是什么？

@@ -54,7 +54,7 @@ Faucet URL: https://faucet-testnet.kcc.network (Zu testzwecken ohne einen Wert)
 
 ### Schritte
 ```
-git clone -b kcc --single-branch https://github.com/kucoin-community-chain/kcc.git
+git clone -b kcc --single-branch https://github.com/kcc-community/kcc.git
 cd kcc
 make geth
 ```
@@ -107,7 +107,7 @@ Um den Node (`geth`) im Hintergrund laufen zu lassen, kannst du `nohup`,`supervi
 
 Um mit dem KCC Node (RPC oder Websocket) zu interagieren kannst du eine der folgenden SDKs nutzen.
 
-- [Js: web3.js](https://github.com/kucoin-community-chain/web3.js) Ethereum JavaScript API
+- [Js: web3.js](https://github.com/kcc-community/web3.js) Ethereum JavaScript API
 - [Java: web3j](https://github.com/web3j/web3j) Web3 Java Ethereum Ðapp API
 - [PHP: web3.php](https://github.com/sc0Vu/web3.php) A php interface for interacting with the Ethereum blockchain and ecosystem.
 - [Python: Web3.py](https://github.com/ethereum/web3.py) A Python library for interacting with Ethereum, inspired by web3.js.
@@ -128,7 +128,7 @@ Die schwierigkeit eines Block ist 2 wenn der Block automatisch generiert ist, un
 
 KCC hat 3 integrierte System Contracts für den PoSA in der Geniss Datei.
 
-Der Source Code dieser 3 Contracts sind von "Heco" gefroked und sind auf unserem Github Repository zu finden: [https://github.com/kucoin-community-chain/kcc-genesis-contracts](https://github.com/kucoin-community-chain/kcc-genesis-contracts)。
+Der Source Code dieser 3 Contracts sind von "Heco" gefroked und sind auf unserem Github Repository zu finden: [https://github.com/kcc-community/kcc-genesis-contracts](https://github.com/kcc-community/kcc-genesis-contracts)。
 
 Die Verwaltung der aktuellen Validatoren obliegt den System Contracts.
 
@@ -160,9 +160,9 @@ Wannimmer ein Validator gefunden wird der nicht zuverlässlich einen Block verar
 
 Jegliche Tipps, Anregungen und Diskussionen sind Willkommen.
 
-[Hinterlasse einen Tipp/Anmerkung oder Fehler/Problem](https://github.com/kucoin-community-chain/any-advice-issue/issues)
+[Hinterlasse einen Tipp/Anmerkung oder Fehler/Problem](https://github.com/kcc-community/any-advice-issue/issues)
 
-[Starte eine Diskussion](https://github.com/kucoin-community-chain/any-advice-issue/discussions)
+[Starte eine Diskussion](https://github.com/kcc-community/any-advice-issue/discussions)
 
 Wenn du ein Problem mit einem speziellen Projekt hast dann verschiebe dieses `issue` in das jeweilige spezial Projekt.
 
@@ -174,7 +174,7 @@ KCC Verbesserungsvorschläge (KIPs)  beschreiben den Standard für die KCC Platt
 
 Der Idee hinter diesem Prozess ist es alle änderungen an der KCC so transparent und demokratisch wie möglich zu gestalten.
 
-URL：[https://github.com/kucoin-community-chain/KIPs](https://github.com/kucoin-community-chain/KIPs)
+URL：[https://github.com/kcc-community/KIPs](https://github.com/kcc-community/KIPs)
 
 
 # FAQ
