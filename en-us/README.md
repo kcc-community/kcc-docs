@@ -8,7 +8,7 @@ convenient and low-cost blockchain user experience.
 
 KCC will have the following characteristics:
 - Fully compatible with Ethereum and ERC-20 smart contracts, with extremely low migration costs;
-- KuCoin Token (KCS) will serve as the only core fuel and native token for KCC and can be used in scenarios such as gas fee payment;
+- KCS will serve as the only core fuel and native token for KCC and can be used in scenarios such as gas fee payment;
 - A block every 3 seconds results in faster transaction confirmation and higher chain performance;
 - Proof of Staked Authority (PoSA) consensus algorithm, high efficiency, security and stability.
 
