@@ -12,7 +12,7 @@ docsify serve .
 
 ### Media
 - [[Twitter] https://twitter.com/KCCOfficialTW](https://twitter.com/KCCOfficialTW)
-- [[Medium] https://kucoincommunitychain.medium.com](https://kucoincommunitychain.medium.com)
+- [[Medium] https://kccofficial.medium.com](https://kccofficial.medium.com)
 
 ### User Groups
 - [[Telegram] KCC Official English Community](https://t.me/KCCOfficialEnglishCommunity)
