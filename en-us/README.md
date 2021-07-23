@@ -73,7 +73,7 @@ Faucet URL: https://faucet-testnet.kcc.network (for test only, no value)
 You can directly visit[https://github.com/kcc-community/kcc/releases](https://github.com/kcc-community/kcc/releases) to download the latest version of the binary file。
 
 ### Docker
-Or you can visit [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.docker.com/r/kucoincommunitychain/kcc) to rapid deployment and testing。([How t use Docker？](https://docs.docker.com/get-started/))
+Or you can visit [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.docker.com/r/kucoincommunitychain/kcc) to rapid deployment and testing。([How to use Docker？](https://docs.docker.com/get-started/))
 
 ### Compilation
 #### Requirements
