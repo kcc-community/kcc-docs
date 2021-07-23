@@ -66,23 +66,30 @@ WebSocket RPC URL: wss://rpc-ws-testnet.kcc.network
 Faucet URL: https://faucet-testnet.kcc.network (for test only, no value)
 ```
 
-# Developer documentation
+# Developer 
 
-## Compilation
-### Requirements
+## Node
+### Binary file
+You can directly visit[https://github.com/kcc-community/kcc/releases](https://github.com/kcc-community/kcc/releases) to download the latest version of the binary file。
+
+### Docker
+Or you can visit [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.docker.com/r/kucoincommunitychain/kcc) to rapid deployment and testing。([How t use Docker？](https://docs.docker.com/get-started/))
+
+### Compilation
+#### Requirements
 - Linux or Mac
 - golang >= 1.13
 - git
 
 [how to download and install golang](https://golang.org/doc/install)
 
-### Steps
+#### Steps
 ```
 git clone -b kcc --single-branch https://github.com/kcc-community/kcc.git
 cd kcc
 make geth
 ```
-### Running
+#### Running
 The command line flags are similar to go-ethereum, you can use `./build/bin/geth --help` for all command line options,
 like `./build/bin/geth --testnet` to join the Testnet. Caution: Use the specific "geth" version located at `./build/bin/geth`.
 
@@ -98,24 +105,24 @@ You can use [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.dock
 ```
 4 core cpu
 8g memory
-scalable SSD disk
+200G and scalable SSD
 public ip with TCP/UDP:30303 open
 ```
 
-### Start command
+#### Start command
 ```
-./build/bin/geth #Mainnet
-./build/bin/geth --testnet #Testnet
+./geth  #Mainnet
+./geth --testnet #Testnet
 
 useful options:
 /data/kcc/geth \
 --datadir /data/.kcc/testnet \ #your data dir
 --testnet \ #Testnet
 --http \ #http rpc
---ws \ #ws rpc
---http.vhosts '*' \ #vhosts
---rpccorsdomain '*' \ #http corsdomain
 --http.addr 0.0.0.0 \ #http rpc bind address
+--http.vhosts * \ #vhosts
+--http.corsdomain * \ #http corsdomain
+--ws \ #ws rpc
 --ws.addr 0.0.0.0 \ #ws rpc bind address
 --syncmode full \ #syncmode
 --gcmode archive #gcmode
@@ -129,11 +136,22 @@ You can use `nohup`,`supervisor`,`systemd` to run and manage `geth` in the backg
 ## SDKs
 You can use the following SDKs to interact with KCC node rpc.
 
-- [Js: web3.js](https://github.com/kcc-community/web3.js) Ethereum JavaScript API
+- [Js: web3.js](https://github.com/ChainSafe/web3.js) Ethereum JavaScript API
 - [Java: web3j](https://github.com/web3j/web3j) Web3 Java Ethereum Ðapp API
 - [PHP: web3.php](https://github.com/sc0Vu/web3.php) A php interface for interacting with the Ethereum blockchain and ecosystem.
 - [Python: Web3.py](https://github.com/ethereum/web3.py) A Python library for interacting with Ethereum, inspired by web3.js.
 - [Golang: go-ethereum](https://github.com/ethereum/go-ethereum)
+
+## Tools
+- [Solidity](https://docs.soliditylang.org/en/latest/)
+- [Remix](https://remix.ethereum.org/)
+- [Truffle](https://www.trufflesuite.com/docs/truffle/overview)
+- [Faucet](https://faucet-testnet.kcc.network)
+- [Explorer](https://explorer.kcc.io)
+
+## Bridge
+- [KCC-Bridge](https://www.kcc.io/#/bridge/transfer)
+- [AnySwap](https://anyswap.exchange/bridge)
 
 ## Consensus
 KCC introduces a PoSA consensus mechanism, which features low transaction costs, low transaction delay,
