@@ -60,42 +60,43 @@ WebSocket RPC地址: wss://rpc-ws-testnet.kcc.network
 
 水龙头: https://faucet-testnet.kcc.network (仅测试用，无价值)
 ```
-# 开发者文档
+# 开发者
 
-## 编译
-### 编译要求
+## 运行节点
+### 二进制文件
+直接访问[https://github.com/kcc-community/kcc/releases](https://github.com/kcc-community/kcc/releases)下载最新版本的二进制文件。
+
+### Docker
+也可以使用 [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.docker.com/r/kucoincommunitychain/kcc) 进行快速部署和测试。([关于如何使用Docker？](https://docs.docker.com/get-started/))
+
+### 编译
+#### 编译要求
 - Linux or Mac
 - golang >= 1.13
 - git
 
 golang安装和配置请参考 [https://golang.org/doc/install](https://golang.org/doc/install)
 
-### 编译步骤
+#### 编译步骤
 ```
 git clone -b kcc --single-branch https://github.com/kcc-community/kcc.git
 cd kcc
 make geth
 ```
-### 启动
+#### 启动
 启动参数配置和以太坊类似，可以通过`./build/bin/geth --help`查看所有的参数配置，可以通过`geth --testnet`加入测试网。
 
-## Docker
+### 部署
 
-也可以使用 [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.docker.com/r/kucoincommunitychain/kcc) 进行快速部署和测试。
-
-[关于如何使用Docker？](https://docs.docker.com/get-started/)
-
-## 部署
-
-### 推荐配置
+#### 推荐配置
 ```
 4核
 8G内存
-可扩容的SSD
+200G并且可扩容的SSD
 公网IP并开启TCP/UDP:30303端口
 ```
 
-### 启动命令
+#### 启动命令
 ```
 ./geth #主网
 ./geth --testnet #测试网
@@ -105,10 +106,10 @@ make geth
 --datadir /data/.kcc/testnet \ #自定义数据目录
 --testnet \ #测试网
 --http \ #开启http rpc
---ws \ #开启ws rpc
---http.vhosts * \ #vhosts
---rpccorsdomain * \ #http corsdomain
 --http.addr 0.0.0.0 \ #http rpc监听地址
+--http.vhosts * \ #vhosts
+--http.corsdomain * \ #http corsdomain
+--ws \ #开启ws rpc
 --ws.addr 0.0.0.0 \ #ws rpc监听地址
 --syncmode full \ #同步模式
 --gcmode archive #gc模式
@@ -125,11 +126,22 @@ make geth
 
 可以使用以下的SDK和KCC的RPC API进行交互。
 
-- [Js: web3.js](https://github.com/kcc-community/web3.js) Ethereum JavaScript API
+- [Js: web3.js](https://github.com/ChainSafe/web3.js) Ethereum JavaScript API
 - [Java: web3j](https://github.com/web3j/web3j) Web3 Java Ethereum Ðapp API
 - [PHP: web3.php](https://github.com/sc0Vu/web3.php) A php interface for interacting with the Ethereum blockchain and ecosystem.
 - [Python: Web3.py](https://github.com/ethereum/web3.py) A Python library for interacting with Ethereum, inspired by web3.js.
 - [Golang: go-ethereum](https://github.com/ethereum/go-ethereum)
+
+## 工具
+- [合约开发语言：solidity](https://docs.soliditylang.org/en/latest/)
+- [合约开发工具：remix](https://remix.ethereum.org/)
+- [合约开发套件: truffle](https://www.trufflesuite.com/docs/truffle/overview)
+- [水龙头: faucet](https://faucet-testnet.kcc.network)
+- [浏览器: explorer](https://explorer.kcc.io)
+
+## 跨链桥
+- [KCC-Bridge](https://www.kcc.io/#/bridge/transfer)
+- [AnySwap](https://anyswap.exchange/bridge)
 
 ## 共识
 KCC采用PoSA共识机制，具有成本低、性能高、出块稳的特点，支持最多29个验证人节点；
