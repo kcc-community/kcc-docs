@@ -283,3 +283,6 @@ click【Ethereum mainnet】，click【custom RPC】on the drop menu
 Done
 
 <img width="170" alt="E4" src="https://user-images.githubusercontent.com/13411690/121641085-51837280-cac1-11eb-80cd-1a208c0bcd54.png">
+
+## How to Unstuck Stuck Transactions on MetaMask？
+[[Vedio]How to Unstuck Stuck Transactions on MetaMask (KCC)](https://youtu.be/0xkkRmajIJI)
