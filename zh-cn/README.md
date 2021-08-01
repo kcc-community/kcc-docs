@@ -270,6 +270,8 @@ KIP是KCC改进提议的缩写，任何社区用户都可以在这里发起有�
 
 <img width="170" alt="C4" src="https://user-images.githubusercontent.com/13411690/121639786-a6be8480-cabf-11eb-9ff0-76995dfdccfa.png">
 
+## 如何处理MetaMask卡住的交易？
+[[视频]How to Unstuck Stuck Transactions on MetaMask (KCC)](https://youtu.be/0xkkRmajIJI)
 
 
 
