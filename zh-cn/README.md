@@ -233,6 +233,7 @@ KIP是KCC改进提议的缩写，任何社区用户都可以在这里发起有�
 9.如何使用KCC Bridge进行资产跨链？
 
 >可以参考我们的视频教程：https://www.youtube.com/watch?v=kZdX1V2Tgnc
+
 >更多教程欢迎订阅我们的Youtube频道：https://www.youtube.com/channel/UCZhWm40SuAApnLqqq3F9o1w
 
 ## 如何配置 MetaMask 钱包
