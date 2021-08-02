@@ -245,6 +245,12 @@ URL：[https://github.com/kcc-community/KIPs](https://github.com/kcc-community/K
 
 >Use the plug-in expand view to display at full screen, which can be more stable or choose "Accelerate" to increase gaslimt and gasPrice.
 
+9.How to use KCC bridge for cross-chain asset conversion service？
+
+>You can refer to our video tutorial：https://www.youtube.com/watch?v=kZdX1V2Tgnc
+
+>For more tutorials, please subscribe to our Youtube channel：https://www.youtube.com/channel/UCZhWm40SuAApnLqqq3F9o1w
+
 ## How to configure MetaMask Wallet
 
 Use Chrome browser open MetaMask [extension site](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=zh-CN)
