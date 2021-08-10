@@ -251,6 +251,15 @@ URL：[https://github.com/kcc-community/KIPs](https://github.com/kcc-community/K
 
 >For more tutorials, please subscribe to our Youtube channel：https://www.youtube.com/channel/UCZhWm40SuAApnLqqq3F9o1w
 
+10.What happens if we used KCC instead of ERC20 when sending Tether to an address that doesn't support KCC? Does it bounce back after a certain amount of time? 
+
+> If the target address is your personal address, the operation is quite simple. Change the wallet network to KCC, and import your address and your KCC-USDT contract address, then you can see the USDT balance. 
+
+>If your target address is an exchange or a centralized wallet, you need to contact their customer support to either let them support KCC or refund them to your original address. 
+
+>Therefore, we suggest our users to be clear about why they will make the transfer since blockchain features immutability, meaning that any transfer cannot be rolled back once sent, and we always recommend first giving a try with a smaller amount. 
+
+
 ## How to configure MetaMask Wallet
 
 Use Chrome browser open MetaMask [extension site](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=zh-CN)
