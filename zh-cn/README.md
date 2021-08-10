@@ -236,6 +236,14 @@ KIP是KCC改进提议的缩写，任何社区用户都可以在这里发起有�
 
 >更多教程欢迎订阅我们的Youtube频道：https://www.youtube.com/channel/UCZhWm40SuAApnLqqq3F9o1w
 
+10.如果我们将Tether发送到不支持KCC的地址时使用的是ERC20而不是KCC会发生什么？代币会在一段时间后返还到原钱包地址吗？
+
+>如果目标地址是您的个人地址，则操作非常简单。 把钱包网络改成KCC，导入你的地址和你的KCC-USDT合约地址，就可以看到USDT余额了。
+
+>如果您的目标地址是交易所或中心化钱包，您需要联系他们的客户支持，让他们支持 KCC 或将其退款到您的原始地址。
+
+>因此，我们建议我们的用户清楚他们为什么要进行代币转移，因为区块链具有不可变性，这意味着任何转移一旦发送就无法回滚，所以我们建议您先用较小的金额进行尝试。
+
 ## 如何配置 MetaMask 钱包
 
 使用 Chrome 浏览器打开 MetaMask [安装地址](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=zh-CN)
