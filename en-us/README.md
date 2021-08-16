@@ -301,3 +301,6 @@ Done
 
 ## How to Unstuck Stuck Transactions on MetaMask？
 [[Video]How to Unstuck Stuck Transactions on MetaMask (KCC)](https://youtu.be/0xkkRmajIJI)
+
+## How to add a custom token to your MetaMask wallet?
+[[Video]How to add a custom token to your MetaMask wallet (KCC)](https://youtu.be/tb7xSLur6EU)

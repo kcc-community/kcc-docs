@@ -287,7 +287,8 @@ KIP是KCC改进提议的缩写，任何社区用户都可以在这里发起有�
 ## 如何处理MetaMask卡住的交易？
 [[视频]How to Unstuck Stuck Transactions on MetaMask (KCC)](https://youtu.be/0xkkRmajIJI)
 
-
+## 如何在MetaMask添加KCC上的资产?
+[[视频]How to add a custom token to your MetaMask wallet (KCC)](https://youtu.be/tb7xSLur6EU)
 
 
 
