@@ -136,6 +136,7 @@ make geth
 - [合约开发语言：solidity](https://docs.soliditylang.org/en/latest/)
 - [合约开发工具：remix](https://remix.ethereum.org/)
 - [合约开发套件: truffle](https://www.trufflesuite.com/docs/truffle/overview)
+- [合约开发套件: hardhat](https://hardhat.org/)
 - [水龙头: faucet](https://faucet-testnet.kcc.network)
 - [浏览器: explorer](https://explorer.kcc.io)
 
