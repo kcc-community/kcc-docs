@@ -146,6 +146,7 @@ You can use the following SDKs to interact with KCC node rpc.
 - [Solidity](https://docs.soliditylang.org/en/latest/)
 - [Remix](https://remix.ethereum.org/)
 - [Truffle](https://www.trufflesuite.com/docs/truffle/overview)
+- [Hardhat](https://hardhat.org/)
 - [Faucet](https://faucet-testnet.kcc.network)
 - [Explorer](https://explorer.kcc.io)
 
