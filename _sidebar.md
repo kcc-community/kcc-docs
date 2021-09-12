@@ -2,3 +2,4 @@
 - [:cn: 简体中文](zh-cn/)
 - [:de: Deutsch](de-de/)
 - [:es: Español](es-es/)
+- [:ng: Yoruba](yor-ng/)
