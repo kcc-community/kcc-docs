@@ -1,5 +1,6 @@
 - [:us: :uk: English](en-us/)
 - [:cn: 简体中文](zh-cn/)
+- [:hk: 繁體中文](zh-hk/)
 - [:de: Deutsch](de-de/)
 - [:es: Español](es-es/)
 - [:ng: Yoruba](yor-ng/)
