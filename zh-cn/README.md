@@ -49,6 +49,10 @@ RPC地址: https://rpc-mainnet.kcc.network
 WebSocket RPC地址: wss://rpc-ws-mainnet.kcc.network
 ```
 
+*主网和测试网公开节点的访问限频策略为300/10s.*
+
+*开发者也可以使用 [https://scan.kcc.io](https://scan.kcc.io) 浏览器*
+
 ## 测试网
 ```
 网络名称: KCC-TESTNET
@@ -175,6 +179,26 @@ KCC在genesis文件中内置了PoSA共识相关的合约，
 
 ### 惩罚
 如果验证人没有按照预定规则进行出块，就会在这个块结束时，自动调用punish合约，对验证人进行计数。当计数达到24次时，罚没验证人的所有收入。当计数达到48次时，将验证人移除出活跃验证人列表，同时取消验证人资格。
+
+## TheGraph
+Graph Node是一个使用GraphQL在以太坊和IPFS上快速构建去中心化应用(dApps)的协议。
+
+KCC社区开发团队开放的Graph节点为：
+```
+https://thegraph.kcc.network/deploy/
+https://thegraph.kcc.network/ipfs/
+https://thegraph.kcc.network/subgraphs/name/
+```
+
+示例：
+```
+"create": "graph create your-name --node https://thegraph.kcc.network/deploy/",
+"deploy": "graph deploy your-name --ipfs https://thegraph.kcc.network/ipfs/ --node https://thegraph.kcc.network/deploy/"
+"explorer": "https://thegraph.kcc.network/subgraphs/name/your-name"
+```
+
+**由于性能问题，我们建议你按照[TheGraph官方文档](https://thegraph.com/docs/)进行私有化部署，并部署自己的全节点。**
+
 
 # 社区治理
 
