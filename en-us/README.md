@@ -54,6 +54,10 @@ Explorer URL: https://explorer.kcc.io/en
 WebSocket RPC URL: wss://rpc-ws-mainnet.kcc.network
 ```
 
+*The rate limit of the endpoint on Testnet and Mainnet is 300/10s*
+
+*Users can use also [https://scan.kcc.io](https://scan.kcc.io) as Block Explorer.*
+
 ## Testnet
 ```
 Chain Name: KCC-TESTNET
@@ -190,6 +194,26 @@ and wait for 86400 blocks(3 days), then call the `withdrawStaking` method in the
 
 ### punish
 Whenever a validator is found not to mine a block as predefined, the Punish contract is automatically called at the end of this block and the validator is counted. When the count reaches 24, all income of the validator is punished. When the count reaches 48, the validator is removed from the list of active validators, and the validator is disqualified.
+
+## TheGraph
+Graph Node is a protocol for building decentralized applications (dApps) quickly on Ethereum and IPFS using GraphQL.
+
+The Graph node opened by the KCC community development team are:
+```
+https://thegraph.kcc.network/deploy/
+https://thegraph.kcc.network/ipfs/
+https://thegraph.kcc.network/subgraphs/name/
+```
+
+Example:
+```
+"create": "graph create your-name --node https://thegraph.kcc.network/deploy/",
+"deploy": "graph deploy your-name --ipfs https://thegraph.kcc.network/ipfs/ --node https://thegraph.kcc.network/deploy/"
+"explorer": "https://thegraph.kcc.network/subgraphs/name/your-name"
+```
+
+**Due to performance issues, we recommend you follow [The Graph the official document](https://thegraph.com/docs/) and do the privatisation deployment, and deploy your own node.**
+
 
 # Governance
 
