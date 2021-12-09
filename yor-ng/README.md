@@ -149,7 +149,7 @@ O le lo awọn SDK wọnyi lati ba nodu KCC rpc soro.
 - [Explorer](https://explorer.kcc.io)
 
 ## Afara
-- [KCC-Bridge](https://www.kcc.io/#/bridge/transfer)
+- [KCC-Bridge](https://www.kcc.io/bridge/transfer/)
 - [AnySwap](https://anyswap.exchange/bridge)
 
 ## Iṣọkan

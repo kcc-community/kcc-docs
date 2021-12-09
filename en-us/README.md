@@ -155,7 +155,7 @@ You can use the following SDKs to interact with KCC node rpc.
 - [Explorer](https://explorer.kcc.io)
 
 ## Bridge
-- [KCC-Bridge](https://www.kcc.io/#/bridge/transfer)
+- [KCC-Bridge](https://www.kcc.io/bridge/transfer/)
 - [AnySwap](https://anyswap.exchange/bridge)
 
 ## Consensus
