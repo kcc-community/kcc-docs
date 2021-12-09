@@ -145,7 +145,7 @@ make geth
 - [浏览器: explorer](https://explorer.kcc.io)
 
 ## 跨链桥
-- [KCC-Bridge](https://www.kcc.io/#/bridge/transfer)
+- [KCC-Bridge](https://www.kcc.io/bridge/transfer/)
 - [AnySwap](https://anyswap.exchange/bridge)
 
 ## 共识
