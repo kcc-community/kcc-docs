@@ -207,10 +207,13 @@ https://thegraph.kcc.network/subgraphs/name/
 
 Example:
 ```
-"create": "graph create your-name --node https://thegraph.kcc.network/deploy/",
+"auth": "graph auth https://thegraph.kcc.network/deploy/ your-token"
+"create": "graph create your-name --node https://thegraph.kcc.network/deploy/"
 "deploy": "graph deploy your-name --ipfs https://thegraph.kcc.network/ipfs/ --node https://thegraph.kcc.network/deploy/"
 "explorer": "https://thegraph.kcc.network/subgraphs/name/your-name"
 ```
+
+**If you need to use the service, please fill in the [Application form](https://forms.office.com/r/DQawaDHtnF)**
 
 **Due to performance issues, we recommend you follow [The Graph the official document](https://thegraph.com/docs/) and do the privatisation deployment, and deploy your own node.**
 

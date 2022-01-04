@@ -192,10 +192,13 @@ https://thegraph.kcc.network/subgraphs/name/
 
 示例：
 ```
-"create": "graph create your-name --node https://thegraph.kcc.network/deploy/",
+"auth": "graph auth https://thegraph.kcc.network/deploy/ your-token"
+"create": "graph create your-name --node https://thegraph.kcc.network/deploy/"
 "deploy": "graph deploy your-name --ipfs https://thegraph.kcc.network/ipfs/ --node https://thegraph.kcc.network/deploy/"
 "explorer": "https://thegraph.kcc.network/subgraphs/name/your-name"
 ```
+
+**如果需要使用服务，请填写[申请表单](https://forms.office.com/r/DQawaDHtnF)**
 
 **由于性能问题，我们建议你按照[TheGraph官方文档](https://thegraph.com/docs/)进行私有化部署，并部署自己的全节点。**
 
