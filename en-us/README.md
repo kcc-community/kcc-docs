@@ -296,7 +296,7 @@ Follow the intro, create your ETH wallet，**backup your private key or mnemonic
 
 Config KCC Mainnet
 
-(1) Open MetaMask，you can see the default config of【Ethereum mainnet】。
+(1) Open MetaMask，you can see the default config of【Ethereum mainnet】
 
 <img width="170" alt="E1" src="https://user-images.githubusercontent.com/13411690/121641021-3f093900-cac1-11eb-9c06-fd653cd598a1.png">
 
