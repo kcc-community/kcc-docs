@@ -8,7 +8,7 @@ npm i docsify-cli
 docsify serve .
 ```
 
-## Communities
+## Comunidades
 
 ### Mídias Sociais
 - [[Twitter] https://twitter.com/KCCOfficialTW](https://twitter.com/KCCOfficialTW)
