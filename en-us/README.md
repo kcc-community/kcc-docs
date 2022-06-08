@@ -255,13 +255,57 @@ You can vote for validators by staking KCS, 1 KCS represents 1 vote, you can get
 2.How to check/withdraw my staking rewards?
 
 >1.Click on "My Vote" to see your rewards overview
- 2.You can check the rewards of each validator and click “Claim” to get it
+>2.You can check the rewards of each validator and click “Claim” to get it
 
 
+3.How to redeem my staking?
+
+>1.Click on "My Vote" to see your staking overview
+>2.Click "Redeem" to stop staking
+>3.You can withdraw it after 3days unbinding period, during the unbinding period, your staked KCS will not receive any rewards.
 
 
+4.How to be a validator？
+
+>1.Please contact any KCC official community to send your request.
+>2.The validator application functions will be coming soon, please click "Audit for validator" on the homepage at that time.
 
 
+5.How much does it cost to stake?
+
+>You can vote for candidates by staking KCS, 1 KCS represents 1 vote and can only vote for one candidate.
+
+
+6.How can I check the active validators?
+
+>Please check it on the “Staking” page.
+
+
+7.When can I receive my KCS after redemption?
+
+>1.You can withdraw it after 3 days unbinding period, during the unbinding period, your staked KCS will not receive any rewards.
+>Please click on "My Vote" to check it.
+
+
+8.What is the commission rate?
+
+>Each validator will set a different commission rate, please check it on the “Staking” page.
+
+
+9.What is “In Jail”？
+
+>Validators can suffer from “Jailed”, a punishment for their bad behaviors, jailed is a punitive function that is triggered by a validator's bad actions.
+>Validators will be punished such as, going offline, being unable to communicate with the network, and other bad behaviors.
+
+
+10.Does an inactive or jailed validator receive any rewards?
+
+>No, they will not.
+
+
+11.Can I receive my staking rewards if my chosen validator is inactive or jailed?
+
+>You can't receive rewards but your staked KCS will not be impacted.
 
 
 # FAQ
