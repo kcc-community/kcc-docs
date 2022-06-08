@@ -240,6 +240,30 @@ The purpose of this process is to ensure changes to KCC are transparent and well
 
 URL：[https://github.com/kcc-community/KIPs](https://github.com/kcc-community/KIPs)
 
+
+# KCC Staking
+
+## FAQ
+
+1.How to participate in KCC node validator with staking?
+
+>By staking your KCS, you participate in the node selection voting process of Kucoin Community Chain（KCC） validators and earn rewards
+Staking KCS is critical for securing the network. Validators can stake KCS to themselves, and they can also receive delegations from KCS voting.
+You can vote for validators by staking KCS, 1 KCS represents 1 vote, you can get the KCS back if you redeem the voting.
+
+
+2.How to check/withdraw my staking rewards?
+
+>1.Click on "My Vote" to see your rewards overview
+ 2.You can check the rewards of each validator and click “Claim” to get it
+
+
+
+
+
+
+
+
 # FAQ
 1.What is the consensus mechanism of KCC?
 
