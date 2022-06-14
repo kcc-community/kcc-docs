@@ -5,3 +5,4 @@
     - [:de: Deutsch](de-de/)
     - [:es: Español](es-es/)
     - [:ng: Yoruba](yor-ng/)
+    - [:br: Português](pt-br/)
