@@ -185,14 +185,14 @@ Contratos do sistema de chamadas Blockchain:
 - Ao final de cada época, o contrato de Validadores é chamado para atualizar os validadores ativos, com base no ranking.
 
 ### estaca
-Você pode chamar o método `stake` no contrato `validator` para apostar para qualquer validador, o valor mínimo de aposta para cada validador é 32KCS.
+Você pode chamar o método `stake` no contrato `validator` para apostar para qualquer validador, o valor mínimo de aposta para cada validador é 1KCS.
 
 ### desmarcar
 Se você quiser `unstake` seu KCS, você precisa chamar o método `unstake` no contrato `validator`,
 e aguarde 86.400 blocos (3 dias), então chame o método `withdrawStaking` no contrato `validator` para disponibilizar o valor.
 
 ### punir
-Sempre que um validador não minerar um bloco como pré-definido, o contrato Punish é automaticamente chamado ao final deste bloco e o validador é contabilizado. Quando a contagem chega a 24, todos os rendimentos do validador são punidos. Quando a contagem atinge 48, o validador é removido da lista de validadores ativos e o validador é desclassificado.
+Sempre que um validador não minerar um bloco como pré-definido, o contrato Punish é automaticamente chamado ao final deste bloco e o validador é contabilizado. Quando a contagem chega a 24, todos os rendimentos do validador são punidos. Quando a contagem atinge 600, o validador é removido da lista de validadores ativos e o validador é desclassificado.
 
 ## O gráfico
 O Graph Node é um protocolo para criar aplicativos descentralizados (dApps) rapidamente no Ethereum e IPFS usando o GraphQL.
@@ -261,7 +261,7 @@ URL:[https://github.com/kcc-community/KIPs](https://github.com/kcc-community/KIP
 
 6.Como apostar nós de contrato?
 
->Os usuários podem chamar o método stake do contrato do validador para fazer o stake de qualquer nó. O valor mínimo apostado para cada validador é de 32 KCS.
+>Os usuários podem chamar o método stake do contrato do validador para fazer o stake de qualquer nó. O valor mínimo apostado para cada validador é de 1 KCS.
 
 7.Como desbloquear o valor apostado?
 

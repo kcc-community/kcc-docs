@@ -162,7 +162,7 @@ You can use the following SDKs to interact with KCC node rpc.
 KCC introduces a PoSA consensus mechanism, which features low transaction costs, low transaction delay,
 high transaction concurrency, and supports up to 29 validators.
 
-PoSA is a combination of PoA and PoS. To become a validator, you need to submit a proposal first and wait for other active validators to vote on it. After more than half of them voted, you will be eligible to become a validator. Any address can stake to an address that qualifies to become a validator, and after the validator's staking volume ranks in the top 29, it will become an active validator in the next epoch.
+PoSA is a combination of PoA and PoS. To become a validator, you need to submit a proposal first and wait for other active validators to vote on it. After more than half of them voted, you will be eligible to become a validator. Any address can stake to an address that qualifies to become a validator. After the validator's staked volume ranks in the top 29 and the validator staked at least 5000 KCS to himself, it will become an active validator in the next epoch.
 
 All active validators are ordered according to predefined rules and take turns to mine blocks. If a validator fails to mine a block on time during their own round, the active validators who have not been involved in the past n/2 (n is the number of active validators) blocks will randomly perform the block-out. At least n/2+1 active validators work properly to ensure the proper operation of the blockchain.
 
@@ -177,23 +177,24 @@ The management of the current validators are all done by the system contracts.
 
 - Proposal Responsible for managing access to validators and managing validator proposals and votes.
 - Validators Responsible for ranking management of validators, staking and unstaking operations, distribution of block rewards, etc.
-- Punish Responsible for punishing operations against active validators who are not working properly.
+- Punish Responsible for punishing operations against active validators who are not working properly. 
+- (Since Ishikari Hardfork) The ReservePool is responsible for temporarily saving gas fees and bonus rewards.
 
 Blockchain call system contracts：
 
-- At the end of each block, the Validators contract is called and the fees for all transactions in the block are distributed to active validators.
+- (Since Ishikari Hardfork) At the end of each block, the Validators contract is called, the fees for all transactions in the block are first sent to the ReservePool, and a fixed amount of KCS will be taken out from the ReservePool and distributed to all the validators and their stakers.
 - The Punish contract is called to punish the validator when the validator is not working properly.
 - At the end of each epoch, the Validators contract is called to update active validators, based on the ranking.
 
 ### stake
-You can call the `stake` method in the `validator` contract to stake for any validator, the minimum staking amount for each validator is 32KCS.
+You can call the `vote` method in the `validators` contract to stake for any validator, the minimum staking amount for each validator is 1KCS.
 
 ### unstake
-If you want to `unstake` your KCS, you need to call the `unstake` method in the `validator` contract,
-and wait for 86400 blocks(3 days), then call the `withdrawStaking` method in the `validator` contract to make the amount available.
+If you want to `unstake` your KCS, you need to call the `revokeVote` method in the `validators` contract,
+and wait for 86400 blocks(3 days), then call the `withdraw` method in the `validators` contract to make the amount available.
 
 ### punish
-Whenever a validator is found not to mine a block as predefined, the Punish contract is automatically called at the end of this block and the validator is counted. When the count reaches 24, all income of the validator is punished. When the count reaches 48, the validator is removed from the list of active validators, and the validator is disqualified.
+Whenever a validator is found not to mine a block as predefined, the Punish contract is automatically called at the end of this block and the validator is counted. When the count reaches every multiple of 24, almost all income of the validator is punished. When the count reaches 600, the validator is removed from the list of active validators, and the validator is disqualified.
 
 ## TheGraph
 Graph Node is a protocol for building decentralized applications (dApps) quickly on Ethereum and IPFS using GraphQL.
@@ -315,7 +316,7 @@ You can vote for validators by staking KCS, 1 KCS represents 1 vote, you can get
 
 2.How to become a KCC validator node?
 
->To become a validator, you need to create a node and submit a proposal, and wait for other active validators to vote. After receiving more than half of the votes, you are eligible to become a validator. Any address can stake the address that is eligible to become a validator. After the validator's staked amount ranks in the top 29, the validator will become an active one in the next epoch.
+>To become a validator, you need to create a node and submit a proposal, and wait for other active validators to vote. After receiving more than half of the votes, you are eligible to become a validator. Any address can stake the address that is eligible to become a validator.  After the validator's staked volume ranks in the top 29 and the validator staked at least 5000 KCS to himself, it will become an active validator in the next epoch.
 
 3.Does KCC support EVM?
 
@@ -331,11 +332,11 @@ You can vote for validators by staking KCS, 1 KCS represents 1 vote, you can get
 
 6.How to stake contract nodes?
 
->Users can call the stake method of the validator contract to stake any node. The minimum staked amount for each validator is 32 KCS.
+>Users can call the `vote` method of the validator contract to stake any node. The minimum staked amount for each validator is 1 KCS.
 
 7.How to unlock the staked amount?
 
->If users want to retrieve the staked KCS, they need to call the unstake method of the validators contract to unlock the staked amount. After 86,400 blocks were generated (3 days), call the withdrawStaking method of the validators contract to get the staked KCS back.
+>If users want to retrieve the staked KCS, they need to call the `revokeVote` method of the validators contract to unlock the staked amount. After 86,400 blocks were generated (3 days), call the `withdraw` method of the validators contract to get the staked KCS back.
 
 8.Get stuck when using MetaMask (including but not limited to transfer stuck or delay, problem of data display, etc.)
 
