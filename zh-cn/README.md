@@ -200,7 +200,7 @@ https://thegraph.kcc.network/subgraphs/name/
 "explorer": "https://thegraph.kcc.network/subgraphs/name/your-name"
 ```
 
-**如果需要使用服务，请填写[申请表单](https://forms.office.com/Pages/ResponsePage.aspx?id=S3jy9rFT20yX1qylChjn8-DS3wXi_TFHkWLpe9Vi-NVUMzY4R0VEV0ZDV0pKVUNUMDI0MTdXU1hRNiQlQCN0PWcu)**
+**如果需要使用服务，请填写[申请表单](https://forms.office.com/r/AtpAskVPk7)**
 
 **由于性能问题，我们建议你按照[TheGraph官方文档](https://thegraph.com/docs/)进行私有化部署，并部署自己的全节点。**
 
