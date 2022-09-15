@@ -214,7 +214,7 @@ Example:
 "explorer": "https://thegraph.kcc.network/subgraphs/name/your-name"
 ```
 
-**If you need to use the service, please fill in the [Application form](https://forms.office.com/Pages/ResponsePage.aspx?id=S3jy9rFT20yX1qylChjn8-DS3wXi_TFHkWLpe9Vi-NVUMzY4R0VEV0ZDV0pKVUNUMDI0MTdXU1hRNiQlQCN0PWcu)**
+**If you need to use the service, please fill in the [Application form](https://forms.office.com/r/AtpAskVPk7)**
 
 **Due to performance issues, we recommend you follow [The Graph the official document](https://thegraph.com/docs/) and do the privatisation deployment, and deploy your own node.**
 
