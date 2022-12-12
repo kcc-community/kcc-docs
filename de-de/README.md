@@ -144,15 +144,15 @@ Blockchain System Contract aufrufe：
 
 ### stake
 
-Du kannst die `stake` Methode im `validator` Contract aufrufen um für egal welchen Validator zu staken, das minimum das für einen Validator gestaked werden muss beträgt 32 KCS.
+Du kannst die `vote` Methode im `validator` Contract aufrufen um für egal welchen Validator zu staken, das minimum das für einen Validator gestaked werden muss beträgt 1 KCS.
 
 ### unstake
 
-Wenn du dein KCS unstaken möchtest dann musst du die `unstake` Methode im `validator` Contract aufrufen und für mindestens 86400 Blöcke (4 Tage) warten um danach die Methode `withdrawStaking` im `validator` Contract  aufrufen zu können um deine KCS zu erhalten.
+Wenn du dein KCS unstaken möchtest dann musst du die `revoke` Methode im `validator` Contract aufrufen und für mindestens 86400 Blöcke (4 Tage) warten um danach die Methode `withdraw` im `validator` Contract  aufrufen zu können um deine KCS zu erhalten.
 
 ### punish
 
-Wannimmer ein Validator gefunden wird der nicht zuverlässlich einen Block verarbeitet wie vorgeschrieben, wird der Bestrafungs Contract automatisch aufgerufen. Am Ende des jeweiligen Block wird dieser Aufruf gezählt, sollten die gezählten Aufrufe "24" erreichen so wird dem Validator sein gesammtes Einkommen entzogen, sollte die Anzahl auf 48 steigen wird der aktive Validator aus der Gruppe der aktiven Validatoren entfernt und ist als dieser disqualifiziert.
+Wannimmer ein Validator gefunden wird der nicht zuverlässlich einen Block verarbeitet wie vorgeschrieben, wird der Bestrafungs Contract automatisch aufgerufen. Am Ende des jeweiligen Block wird dieser Aufruf gezählt, sollten die gezählten Aufrufe "24" erreichen so wird dem Validator sein gesammtes Einkommen entzogen, sollte die Anzahl auf 600 steigen wird der aktive Validator aus der Gruppe der aktiven Validatoren entfernt und ist als dieser disqualifiziert.
 
 # Governance
 

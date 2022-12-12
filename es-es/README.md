@@ -161,14 +161,14 @@ Contratos del sistema de llamadas blockchain:
 - Al final de cada época, se llama al contrato de Validadores para actualizar los validadores activos, en función del ranking.
 
 ### stake
-Puede llamar al método de stake en el contrato del validador para hacer stake por cualquier validador, la cantidad mínima de stake para cada validador es 32KCS.
+Puede llamar al método de `vote` en el contrato del validador para hacer stake por cualquier validador, la cantidad mínima de stake para cada validador es 1KCS.
 
 ### unstake
-Si desea hacer "unstake" de sus KCS, debe llamar al método "unstake" en el contrato del "validador",
-y esperar 86400 bloques (3 días), luego llame al método `withdrawStaking` en el contrato del `validador` para que la cantidad esté disponible.
+Si desea hacer "unstake" de sus KCS, debe llamar al método `revokeVote` en el contrato del "validador",
+y esperar 86400 bloques (3 días), luego llame al método `withdraw` en el contrato del `validador` para que la cantidad esté disponible.
 
 ### Sanción
-Siempre que se encuentra que un validador no extrae un bloque como estaba predefinido, el contrato de Sanción se llama automáticamente al final de este bloque y se cuenta el validador. Cuando el recuento llega a 24, se castigan todos los ingresos del validador. Cuando el recuento llega a 48, el validador se elimina de la lista de validadores activos y el validador queda descalificado.
+Siempre que se encuentra que un validador no extrae un bloque como estaba predefinido, el contrato de Sanción se llama automáticamente al final de este bloque y se cuenta el validador. Cuando el recuento llega a 24, se castigan todos los ingresos del validador. Cuando el recuento llega a 600, el validador se elimina de la lista de validadores activos y el validador queda descalificado.
 
 # Governanza
 
@@ -215,7 +215,7 @@ URL：[https://github.com/kcc-community/KIPs](https://github.com/kcc-community/K
 
 6.¿Cómo hacer stake en los nodos contractuales?
 
-> Los usuarios pueden llamar al método de stake del contrato del validador para hacer stake a cualquier nodo. La cantidad mínima de stake para cada validador es 32 KCS.
+> Los usuarios pueden llamar al método de stake del contrato del validador para hacer stake a cualquier nodo. La cantidad mínima de stake para cada validador es 1 KCS.
 
 7.¿Cómo desbloquear la cantidad de stake?
 
