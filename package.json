@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/kcc-community/kcc-docs#readme",
   "dependencies": {
-    "docsify-cli": "^4.4.3"
+    "docsify-cli": "^4.4.4"
   }
 }
